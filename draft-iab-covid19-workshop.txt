@@ -1,0 +1,126 @@
+
+
+
+
+Network Working Group                                           J. Arkko
+Internet-Draft                                                  Ericsson
+Intended status: Best Current Practice                        S. Farrell
+Expires: 17 May 2021                                                    
+                                                            M. Kühlewind
+                                                                Ericsson
+                                                        13 November 2020
+
+
+       Report from the IAB COVID-19 Network Impacts Workshop 2020
+                   draft-iab-covid19-workshop-latest
+
+Abstract
+
+   The Internet Architecture Board (IAB) held a work to discuss Network
+   Impacts of the COVID-19 pandemic, on November 9-13, 2020, online
+   given the on-going travel and contact restrictions at that time.
+
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/intarchboard/covid19-workshop.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 17 May 2021.
+
+Copyright Notice
+
+   Copyright (c) 2020 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Simplified BSD License text
+   as described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Simplified BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Topic and Scope
+     2.1.  Measurement-based Observation on Network Traffic Dynamics
+       2.1.1.  Overall traffic growth
+       2.1.2.  Changes in traffic patterns
+       2.1.3.  A deeper look at interconnections
+       2.1.4.  Last mile congestion
+     2.2.  Operational Practices and Changes
+     2.3.  Architectural Consideration and Conclusion for Future
+   3.  Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+2.  Topic and Scope
+
+2.1.  Measurement-based Observation on Network Traffic Dynamics
+
+   Significant increase in traffic growth rate in March/April
+
+   Changes in the traffic patterns: Traffic in mobile network decreased
+   and traffic from home network increased.  Strong increase in video
+   conferencing (incl remote schooling)
+
+   Network load noticeably increased but most operators reacted quickly
+   by adding new capacity (earlier?)
+
+   Last mile congestion/higher latency on legacy network (PPPoE)
+
+2.1.1.  Overall traffic growth
+
+2.1.2.  Changes in traffic patterns
+
+2.1.2.1.  Example campus network
+
+2.1.2.2.  Example mobile networks
+
+2.1.3.  A deeper look at interconnections
+
+2.1.4.  Last mile congestion
+
+2.2.  Operational Practices and Changes
+
+2.3.  Architectural Consideration and Conclusion for Future
+
+3.  Acknowledgments
+
+Authors' Addresses
+
+   Jari Arkko
+   Ericsson
+
+   Email: jari.arkko@ericsson.com
+
+
+   Stephen Farrell
+
+   Email: stephen.farrell@cs.tcd.ie
+
+
+   Mirja Kühlewind
+   Ericsson
+
+   Email: mirja.kuehlewind@ericsson.com
