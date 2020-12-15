@@ -249,31 +249,31 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
    The following is an alphabetical list of participants in the
    workshop.
 
-      1.  Stephen Farrell (Trinity College Dublin/IAB)
+   *  Jari Arkko (Ericsson/IAB)
 
-      1.  Oliver Gasser (Max Planck Institute for Informatics)
+   *  Ben Campbell (Independent/IAB)
 
-      1.  Jari Arkko (Ericsson/IAB)
+   *  Andrew Campling (419 Consulting)
 
-      1.  Romain Fontugne (IIJ Research Lab)
+   *  Kenjiro Cho (IIJ)
 
-      1.  Oliver Hohlfeld (Brandenburg University of Technology, BTU)
+   *  kc Claffy (CAIDA)
 
-      1.  Lixia Zhang (UCLA)
+   *  David Clark (MIT CSAIL)
 
-      1.  Marco Mellia (Politecnico di Torino)
+   *  Chris Dietzel (DE-CIX)
 
-      1.  Ricky Mok (CAIDA)
+   *  Idilio Drago (University of Turin)
 
-      1.  Yunan Gu (Huawei)
+   *  Stephen Farrell (Trinity College Dublin/IAB)
 
-      1.  Zhenbin Li (Huawei/IAB)
+   *  Anja Feldmann (Max Planck Institute for Informatics)
 
-      1.  Martino Trevisan
+   *  Romain Fontugne (IIJ Research Lab)
 
-      1.  Kenjiro Cho (IIJ)
+   *  Oliver Gasser (Max Planck Institute for Informatics)
 
-      1.  Kirsty P (NCSC)
+   *  Daniel Kahn Gillmor (ACLU)
 
 
 
@@ -282,53 +282,53 @@ Arkko, et al.             Expires 18 June 2021                  [Page 5]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
 
-      1.  Karen O'Donoghue (Internet Society)
+   *  Yunan Gu (Huawei)
 
-      1.  Jiankang Yao (CNNIC)
+   *  Oliver Hohlfeld (Brandenburg University of Technology, BTU)
 
-      1.  Jason Livingood (Comcast)
+   *  Jana Iyengar (Fastly)
 
-      1.  Mirja Kuhlewind (Ericsson/IAB)
+   *  Cullen Jennings (Cisco/IAB)
 
-      1.  Idilio Drago (University of Turin)
+   *  Mirja Kuhlewind (Ericsson/IAB)
 
-      1.  Gergios Tselentis (European Commission)
+   *  Franziska Lichtblau (Max Planck Institute for Informatics)
 
-      1.  Franziska Lichtblau (Max Planck Institute for Informatics)
+   *  Dominique Lazanski
 
-      1.  Diego Perino (Telefonica Research)
+   *  Zhenbin Li (Huawei/IAB)
 
-      1.  David Clark (MIT CSAIL)
+   *  Jason Livingood (Comcast)
 
-      1.  Chris Dietzel (DE-CIX)
+   *  Andra Lutu (Telefonica Research)
 
-      1.  Ben Campbell (Independent/IAB)
+   *  Vesna Manojlovic (RIPE NCC)
 
-      1.  Anja Feldmann (Max Planck Institute for Informatics)
+   *  R Martin EC (?)
 
-      1.  R Martin EC (?)
+   *  Matt Matthis (Google)
 
-      1.  Andra Lutu (Telefonica Research)
+   *  Larry Masinter (Retired)
 
-      1.  Matt Matthis (Google)
+   *  Jared Mauch (Akamai/IAB)
 
-      1.  kc Claffy (CAIDA)
+   *  Deep Medhi (NSF)
 
-      1.  Anant Shah (Verizon Media Platform)
+   *  Marco Mellia (Politecnico di Torino)
 
-      1.  Colin Perkins (University of Glasgow/IRTF/IAB)
+   *  Ricky Mok (CAIDA)
 
-      1.  Francesca Soro (Politecnico di Torino)
+   *  Karen O'Donoghue (Internet Society)
 
-      1.  Cullen Jennings (Cisco/IAB)
+   *  Kirsty P (NCSC)
 
-      1.  Enric Pujol (Benocs)
+   *  Diego Perino (Telefonica Research)
 
-      1.  Andrew Campling (419 Consulting)
+   *  Colin Perkins (University of Glasgow/IRTF/IAB)
 
-      1.  Jared Mauch (Akamai/IAB)
+   *  Enric Pujol (Benocs)
 
-      1.  Brian Trammell (Google)
+   *  Anant Shah (Verizon Media Platform)
 
 
 
@@ -338,21 +338,21 @@ Arkko, et al.             Expires 18 June 2021                  [Page 6]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
 
-      1.  Lan Wang (University of Memphis)
+   *  Francesca Soro (Politecnico di Torino)
 
-      1.  Dominique Lazanski
+   *  Brian Trammell (Google)
 
-      1.  Rob Wilton (Cisco)
+   *  Gergios Tselentis (European Commission)
 
-      1.  Jana Iyengar (Fastly)
+   *  Martino Trevisan
 
-      1.  Deep Medhi (NSF)
+   *  Lan Wang (University of Memphis)
 
-      1.  Vesna Manojlovic (RIPE NCC)
+   *  Rob Wilton (Cisco)
 
-      1.  Daniel Kahn Gillmor (ACLU)
+   *  Jiankang Yao (CNNIC)
 
-      1.  Larry Masinter (Retired)
+   *  Lixia Zhang (UCLA)
 
 5.  Acknowledgments
 
