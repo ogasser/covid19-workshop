@@ -9,13 +9,18 @@
 <meta content="Stephen Farrell" name="author">
 <meta content="Mirja Kühlewind" name="author">
 <meta content="
-       The Internet Architecture Board (IAB) held a work to discuss Network Impacts of the COVID-19 pandemic, on November 9-13, 2020, online given the on-going travel and contact restrictions at that time. 
+       The COVID-19 pandemic caused changes in Internet traffic,
+particularly during the introduction of the initial quarantine and
+work-from-home arrangements. 
+       The Internet Architecture Board (IAB) held a work to discuss Network
+Impacts of the pandemic, on November 9-13, 2020. The meeting
+was held online given the on-going travel and contact restrictions at that time. 
     " name="description">
-<meta content="xml2rfc 3.2.1" name="generator">
+<meta content="xml2rfc 3.5.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-iab-covid19-workshop-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.2.1
+  xml2rfc 3.5.0
     Python 3.8.5
     appdirs 1.4.4
     ConfigArgParse 1.2.3
@@ -813,18 +818,20 @@ address div.right {
   font-size: 0.9em;
 }
 </style>
-
+<link href="rfc-local.css" rel="stylesheet" type="text/css">
+<script type="application/javascript">async function addMetadata(){try{const e=document.styleSheets[0].cssRules;for(let t=0;t<e.length;t++)if(/#identifiers/.exec(e[t].selectorText)){const a=e[t].cssText.replace("#identifiers","#external-updates");document.styleSheets[0].insertRule(a,document.styleSheets[0].cssRules.length)}}catch(e){console.log(e)}const e=document.getElementById("external-metadata");if(e)try{var t,a="",o=function(e){const t=document.getElementsByTagName("meta");for(let a=0;a<t.length;a++)if(t[a].getAttribute("name")===e)return t[a].getAttribute("content");return""}("rfc.number");if(o){t="https://www.rfc-editor.org/rfc/rfc"+o+".json";try{const e=await fetch(t);a=await e.json()}catch(e){t=document.URL.indexOf("html")>=0?document.URL.replace(/html$/,"json"):document.URL+".json";const o=await fetch(t);a=await o.json()}}if(!a)return;e.style.display="block";const s="",d="https://datatracker.ietf.org/doc",n="https://datatracker.ietf.org/ipr/search",c="https://www.rfc-editor.org/info",l=a.doc_id.toLowerCase(),i=a.doc_id.slice(0,3).toLowerCase(),f=a.doc_id.slice(3).replace(/^0+/,""),u={status:"Status",obsoletes:"Obsoletes",obsoleted_by:"Obsoleted By",updates:"Updates",updated_by:"Updated By",see_also:"See Also",errata_url:"Errata"};let h="<dl style='overflow:hidden' id='external-updates'>";["status","obsoletes","obsoleted_by","updates","updated_by","see_also","errata_url"].forEach(e=>{if("status"==e){a[e]=a[e].toLowerCase();var t=a[e].split(" "),o=t.length,w="",p=1;for(let e=0;e<o;e++)p<o?w=w+r(t[e])+" ":w+=r(t[e]),p++;a[e]=w}else if("obsoletes"==e||"obsoleted_by"==e||"updates"==e||"updated_by"==e){var g,m="",b=1;g=a[e].length;for(let t=0;t<g;t++)a[e][t]&&(a[e][t]=String(a[e][t]).toLowerCase(),m=b<g?m+"<a href='"+s+"/rfc/".concat(a[e][t])+"'>"+a[e][t].slice(3)+"</a>, ":m+"<a href='"+s+"/rfc/".concat(a[e][t])+"'>"+a[e][t].slice(3)+"</a>",b++);a[e]=m}else if("see_also"==e){var y,L="",C=1;y=a[e].length;for(let t=0;t<y;t++)if(a[e][t]){a[e][t]=String(a[e][t]);var _=a[e][t].slice(0,3),v=a[e][t].slice(3).replace(/^0+/,"");L=C<y?"RFC"!=_?L+"<a href='"+s+"/info/"+_.toLowerCase().concat(v.toLowerCase())+"'>"+_+" "+v+"</a>, ":L+"<a href='"+s+"/info/"+_.toLowerCase().concat(v.toLowerCase())+"'>"+v+"</a>, ":"RFC"!=_?L+"<a href='"+s+"/info/"+_.toLowerCase().concat(v.toLowerCase())+"'>"+_+" "+v+"</a>":L+"<a href='"+s+"/info/"+_.toLowerCase().concat(v.toLowerCase())+"'>"+v+"</a>",C++}a[e]=L}else if("errata_url"==e){var R="";R=a[e]?R+"<a href='"+a[e]+"'>Errata exist</a> | <a href='"+d+"/"+l+"'>Datatracker</a>| <a href='"+n+"/?"+i+"="+f+"&submit="+i+"'>IPR</a> | <a href='"+c+"/"+l+"'>Info page</a>":"<a href='"+d+"/"+l+"'>Datatracker</a> | <a href='"+n+"/?"+i+"="+f+"&submit="+i+"'>IPR</a> | <a href='"+c+"/"+l+"'>Info page</a>",a[e]=R}""!=a[e]?"Errata"==u[e]?h+=`<dt>More info:</dt><dd>${a[e]}</dd>`:h+=`<dt>${u[e]}:</dt><dd>${a[e]}</dd>`:"Errata"==u[e]&&(h+=`<dt>More info:</dt><dd>${a[e]}</dd>`)}),h+="</dl>",e.innerHTML=h}catch(e){console.log(e)}else console.log("Could not locate metadata <div> element");function r(e){return e.charAt(0).toUpperCase()+e.slice(1)}}window.removeEventListener("load",addMetadata),window.addEventListener("load",addMetadata);</script>
 </head>
 <body>
+<script src="metadata.min.js"></script>
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">IAB COVID-19 Network Impacts Workshop 20</td>
-<td class="right">November 2020</td>
+<td class="right">December 2020</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Arkko, et al.</td>
-<td class="center">Expires 17 May 2021</td>
+<td class="center">Expires 18 June 2021</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -837,12 +844,12 @@ address div.right {
 <dd class="internet-draft">draft-iab-covid19-workshop-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2020-11-13" class="published">13 November 2020</time>
+<time datetime="2020-12-15" class="published">15 December 2020</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2021-05-17">17 May 2021</time></dd>
+<dd class="expires"><time datetime="2021-06-18">18 June 2021</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -862,7 +869,12 @@ address div.right {
 <h1 id="title">Report from the IAB COVID-19 Network Impacts Workshop 2020</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">The Internet Architecture Board (IAB) held a work to discuss Network Impacts of the COVID-19 pandemic, on November 9-13, 2020, online given the on-going travel and contact restrictions at that time.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">The COVID-19 pandemic caused changes in Internet traffic,
+particularly during the introduction of the initial quarantine and
+work-from-home arrangements.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">The Internet Architecture Board (IAB) held a work to discuss Network
+Impacts of the pandemic, on November 9-13, 2020. The meeting
+was held online given the on-going travel and contact restrictions at that time.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
@@ -891,7 +903,7 @@ address div.right {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 17 May 2021.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 18 June 2021.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -919,43 +931,58 @@ address div.right {
         <a href="#" onclick="scroll(0,0)" class="toplink">▲</a><h2 id="name-table-of-contents">
 <a href="#name-table-of-contents" class="section-name selfRef">Table of Contents</a>
         </h2>
-<nav class="toc"><ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.1">
+<nav class="toc"><ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.1">
             <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a><a href="#section-toc.1-1.1.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact ulEmpty toc" id="section-toc.1-1.2">
+          <li class="compact toc ulEmpty" id="section-toc.1-1.2">
             <p id="section-toc.1-1.2.1"><a href="#section-2" class="xref">2</a>.  <a href="#name-topic-and-scope" class="xref">Topic and Scope</a><a href="#section-toc.1-1.2.1" class="pilcrow">¶</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.2.2.1">
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1">
                 <p id="section-toc.1-1.2.2.1.1"><a href="#section-2.1" class="xref">2.1</a>.  <a href="#name-measurement-based-observati" class="xref">Measurement-based Observation on Network Traffic Dynamics</a><a href="#section-toc.1-1.2.2.1.1" class="pilcrow">¶</a></p>
-<ul class="compact ulEmpty toc">
-<li class="compact ulEmpty toc" id="section-toc.1-1.2.2.1.2.1">
+<ul class="compact toc ulEmpty">
+<li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1.2.1">
                     <p id="section-toc.1-1.2.2.1.2.1.1" class="keepWithNext"><a href="#section-2.1.1" class="xref">2.1.1</a>.  <a href="#name-overall-traffic-growth" class="xref">Overall traffic growth</a><a href="#section-toc.1-1.2.2.1.2.1.1" class="pilcrow">¶</a></p>
 </li>
-                  <li class="compact ulEmpty toc" id="section-toc.1-1.2.2.1.2.2">
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1.2.2">
                     <p id="section-toc.1-1.2.2.1.2.2.1" class="keepWithNext"><a href="#section-2.1.2" class="xref">2.1.2</a>.  <a href="#name-changes-in-traffic-patterns" class="xref">Changes in traffic patterns</a><a href="#section-toc.1-1.2.2.1.2.2.1" class="pilcrow">¶</a></p>
 </li>
-                  <li class="compact ulEmpty toc" id="section-toc.1-1.2.2.1.2.3">
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1.2.3">
                     <p id="section-toc.1-1.2.2.1.2.3.1"><a href="#section-2.1.3" class="xref">2.1.3</a>.  <a href="#name-a-deeper-look-at-interconne" class="xref">A deeper look at interconnections</a><a href="#section-toc.1-1.2.2.1.2.3.1" class="pilcrow">¶</a></p>
 </li>
-                  <li class="compact ulEmpty toc" id="section-toc.1-1.2.2.1.2.4">
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1.2.4">
                     <p id="section-toc.1-1.2.2.1.2.4.1"><a href="#section-2.1.4" class="xref">2.1.4</a>.  <a href="#name-last-mile-congestion" class="xref">Last mile congestion</a><a href="#section-toc.1-1.2.2.1.2.4.1" class="pilcrow">¶</a></p>
+</li>
+                  <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.1.2.5">
+                    <p id="section-toc.1-1.2.2.1.2.5.1"><a href="#section-2.1.5" class="xref">2.1.5</a>.  <a href="#name-user-behaviour" class="xref">User Behaviour</a><a href="#section-toc.1-1.2.2.1.2.5.1" class="pilcrow">¶</a></p>
 </li>
                 </ul>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.2.2.2">
+              <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.2">
                 <p id="section-toc.1-1.2.2.2.1"><a href="#section-2.2" class="xref">2.2</a>.  <a href="#name-operational-practices-and-c" class="xref">Operational Practices and Changes</a><a href="#section-toc.1-1.2.2.2.1" class="pilcrow">¶</a></p>
 </li>
-              <li class="compact ulEmpty toc" id="section-toc.1-1.2.2.3">
+              <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.3">
                 <p id="section-toc.1-1.2.2.3.1"><a href="#section-2.3" class="xref">2.3</a>.  <a href="#name-architectural-consideration" class="xref">Architectural Consideration and Conclusion for Future</a><a href="#section-toc.1-1.2.2.3.1" class="pilcrow">¶</a></p>
+</li>
+              <li class="compact toc ulEmpty" id="section-toc.1-1.2.2.4">
+                <p id="section-toc.1-1.2.2.4.1"><a href="#section-2.4" class="xref">2.4</a>.  <a href="#name-conclusions" class="xref">Conclusions</a><a href="#section-toc.1-1.2.2.4.1" class="pilcrow">¶</a></p>
 </li>
             </ul>
 </li>
-          <li class="compact ulEmpty toc" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-acknowledgments" class="xref">Acknowledgments</a><a href="#section-toc.1-1.3.1" class="pilcrow">¶</a></p>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.3">
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-position-papers" class="xref">Position Papers</a><a href="#section-toc.1-1.3.1" class="pilcrow">¶</a></p>
 </li>
-          <li class="compact ulEmpty toc" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a><a href="#section-toc.1-1.4.1" class="pilcrow">¶</a></p>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.4">
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-workshop-participants" class="xref">Workshop participants</a><a href="#section-toc.1-1.4.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.5">
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-acknowledgments" class="xref">Acknowledgments</a><a href="#section-toc.1-1.5.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.6">
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-informative-references" class="xref">Informative References</a><a href="#section-toc.1-1.6.1" class="pilcrow">¶</a></p>
+</li>
+          <li class="compact toc ulEmpty" id="section-toc.1-1.7">
+            <p id="section-toc.1-1.7.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a><a href="#section-toc.1-1.7.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </nav>
@@ -965,15 +992,28 @@ address div.right {
 <section id="section-1">
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
-    </h2>
+      </h2>
+<p id="section-1-1">The Internet Architecture Board (IAB) held a work to discuss Network
+Impacts of the COVID-19 pandemic, on November 9-13, 2020. The meeting
+was held online given the on-going travel and contact restrictions at that time.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2">COVID-19 has caused changes in Internet traffic. These
+changes appeared rather abruptly, in particular during the
+introduction of the initial quarantine and work-from-home
+arrangements. The changes relate to traffic volumes, location of
+traffic, as well as the types of traffic and applications used.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-3">A total of 15 position papers were received from 33 authors, listed in
+<a href="#positionpapers" class="xref">Section 3</a>.  In addition, several other types of
+contributions and pointers to existing work were provided. On the
+workshop conference calls were 45 participants, listed in
+<a href="#participants" class="xref">Section 4</a>.<a href="#section-1-3" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="topic-and-scope">
+<div id="topicandscope">
 <section id="section-2">
       <h2 id="name-topic-and-scope">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-topic-and-scope" class="section-name selfRef">Topic and Scope</a>
       </h2>
-<div id="measurement-based-observation-on-network-traffic-dynamics">
+<div id="measurement">
 <section id="section-2.1">
         <h3 id="name-measurement-based-observati">
 <a href="#section-2.1" class="section-number selfRef">2.1. </a><a href="#name-measurement-based-observati" class="section-name selfRef">Measurement-based Observation on Network Traffic Dynamics</a>
@@ -986,7 +1026,8 @@ address div.right {
 <section id="section-2.1.1">
           <h4 id="name-overall-traffic-growth">
 <a href="#section-2.1.1" class="section-number selfRef">2.1.1. </a><a href="#name-overall-traffic-growth" class="section-name selfRef">Overall traffic growth</a>
-        </h4>
+          </h4>
+<p id="section-2.1.1-1">TBD...<a href="#section-2.1.1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="changes-in-traffic-patterns">
@@ -994,18 +1035,21 @@ address div.right {
           <h4 id="name-changes-in-traffic-patterns">
 <a href="#section-2.1.2" class="section-number selfRef">2.1.2. </a><a href="#name-changes-in-traffic-patterns" class="section-name selfRef">Changes in traffic patterns</a>
           </h4>
+<p id="section-2.1.2-1">TBD...<a href="#section-2.1.2-1" class="pilcrow">¶</a></p>
 <div id="example-campus-network">
 <section id="section-2.1.2.1">
             <h5 id="name-example-campus-network">
 <a href="#section-2.1.2.1" class="section-number selfRef">2.1.2.1. </a><a href="#name-example-campus-network" class="section-name selfRef">Example campus network</a>
-          </h5>
+            </h5>
+<p id="section-2.1.2.1-1">TBD...<a href="#section-2.1.2.1-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="example-mobile-networks">
 <section id="section-2.1.2.2">
             <h5 id="name-example-mobile-networks">
 <a href="#section-2.1.2.2" class="section-number selfRef">2.1.2.2. </a><a href="#name-example-mobile-networks" class="section-name selfRef">Example mobile networks</a>
-          </h5>
+            </h5>
+<p id="section-2.1.2.2-1">TBD...<a href="#section-2.1.2.2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
@@ -1014,41 +1058,452 @@ address div.right {
 <section id="section-2.1.3">
           <h4 id="name-a-deeper-look-at-interconne">
 <a href="#section-2.1.3" class="section-number selfRef">2.1.3. </a><a href="#name-a-deeper-look-at-interconne" class="section-name selfRef">A deeper look at interconnections</a>
-        </h4>
+          </h4>
+<p id="section-2.1.3-1">TBD...<a href="#section-2.1.3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="last-mile-congestion">
 <section id="section-2.1.4">
           <h4 id="name-last-mile-congestion">
 <a href="#section-2.1.4" class="section-number selfRef">2.1.4. </a><a href="#name-last-mile-congestion" class="section-name selfRef">Last mile congestion</a>
-        </h4>
+          </h4>
+<p id="section-2.1.4-1">TBD...<a href="#section-2.1.4-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+<div id="user-behaviour">
+<section id="section-2.1.5">
+          <h4 id="name-user-behaviour">
+<a href="#section-2.1.5" class="section-number selfRef">2.1.5. </a><a href="#name-user-behaviour" class="section-name selfRef">User Behaviour</a>
+          </h4>
+<p id="section-2.1.5-1">TBD...<a href="#section-2.1.5-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
 </div>
-<div id="operational-practices-and-changes">
+<div id="operational">
 <section id="section-2.2">
         <h3 id="name-operational-practices-and-c">
 <a href="#section-2.2" class="section-number selfRef">2.2. </a><a href="#name-operational-practices-and-c" class="section-name selfRef">Operational Practices and Changes</a>
-      </h3>
+        </h3>
+<p id="section-2.2-1">TBD...<a href="#section-2.2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
-<div id="architectural-consideration-and-conclusion-for-future">
+<div id="architecture">
 <section id="section-2.3">
         <h3 id="name-architectural-consideration">
 <a href="#section-2.3" class="section-number selfRef">2.3. </a><a href="#name-architectural-consideration" class="section-name selfRef">Architectural Consideration and Conclusion for Future</a>
-      </h3>
+        </h3>
+<p id="section-2.3-1">TBD...<a href="#section-2.3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
+<div id="conclusions">
+<section id="section-2.4">
+        <h3 id="name-conclusions">
+<a href="#section-2.4" class="section-number selfRef">2.4. </a><a href="#name-conclusions" class="section-name selfRef">Conclusions</a>
+        </h3>
+<p id="section-2.4-1">TBD...<a href="#section-2.4-1" class="pilcrow">¶</a></p>
+</section>
+</div>
+</section>
+</div>
+<div id="positionpapers">
+<section id="section-3">
+      <h2 id="name-position-papers">
+<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-position-papers" class="section-name selfRef">Position Papers</a>
+      </h2>
+<p id="section-3-1">The following position papers were received, in alphabetical order:<a href="#section-3-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-3-2.1">Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.: Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era <span>[<a href="#Afxanasyev2020" class="xref">Afxanasyev2020</a>]</span><a href="#section-3-2.1" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.2">Arkko, Jari: Observations on Network User Behaviour During COVID-19 <span>[<a href="#Arkko2020" class="xref">Arkko2020</a>]</span><a href="#section-3-2.2" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.3">Bronzino, F., Culley, E., Feamster, N. Liu. S., Livingood. J., and Schmitt, P.: IAB COVID-19 Workshop: Interconnection Changes in the United States <span>[<a href="#Bronzino2020" class="xref">Bronzino2020</a>]</span><a href="#section-3-2.3" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.4">Campling, Andrew and Lazanski, Dominique: Will the Internet Still Be Resilient During the Next Black Swan Event? <span>[<a href="#Campling2020" class="xref">Campling2020</a>]</span><a href="#section-3-2.4" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.5">Cho, Kenjiro: On the COVID-19 Impact to broadband traffic in Japan <span>[<a href="#Cho2020" class="xref">Cho2020</a>]</span><a href="#section-3-2.5" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.6">Clark, D.: Measurement of congestion on ISP interconnection links <span>[<a href="#Clark2020" class="xref">Clark2020</a>]</span><a href="#section-3-2.6" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.7">Favale, T., Soro, F., Trevisan, M., Drago, I., and Mellia, M.: Campus traffic and e-Learning during COVID-19 pandemic <span>[<a href="#Favale2020" class="xref">Favale2020</a>]</span><a href="#section-3-2.7" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.8">Feldmann, A., Gasser, O., Lichtblau, F., Pujol, E., Poese, I., Dietzel, C., Wagner, D., Wichtlhuber, M., Tapiador, J., Vallina-Rodriguez, N., Hohlfeld, O., and Smaragdakis, G.: A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic <span>[<a href="#Feldmann2020" class="xref">Feldmann2020</a>]</span><a href="#section-3-2.8" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.9">Fontugne, R., Shah, A., and Cho, K.: The Impact of COVID-19 on Last-mile Latency <span>[<a href="#Fontugne2020" class="xref">Fontugne2020</a>]</span><a href="#section-3-2.9" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.10">Gillmor, D.: Vaccines, Privacy, Software Updates, and Trust <span>[<a href="#Gillmor2020" class="xref">Gillmor2020</a>]</span><a href="#section-3-2.10" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.11">Gu, Y. and Li, Z. Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion <span>[<a href="#Gu2020" class="xref">Gu2020</a>]</span><a href="#section-3-2.11" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.12">Jennings, C. and Kozanian, P.: WebEx Scaling During Covid <span>[<a href="#Jennings2020" class="xref">Jennings2020</a>]</span><a href="#section-3-2.12" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.13">Lutu, A., Perino, D., Bagnulo, M., Frias-Martinez, E., and Khangosstar, J.: A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic <span>[<a href="#Lutu2020" class="xref">Lutu2020</a>]</span><a href="#section-3-2.13" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.14">Mok, Ricky, and claffy, kc: Measuring the impact of COVID-19 on cloud network performance <span>[<a href="#Mok2020" class="xref">Mok2020</a>]</span><a href="#section-3-2.14" class="pilcrow">¶</a>
+</li>
+        <li class="normal" id="section-3-2.15">Kirsty P: IAB COVID-19 Network Impacts <span>[<a href="#Kirsty2020" class="xref">Kirsty2020</a>]</span><a href="#section-3-2.15" class="pilcrow">¶</a>
+</li>
+      </ul>
+</section>
+</div>
+<div id="participants">
+<section id="section-4">
+      <h2 id="name-workshop-participants">
+<a href="#section-4" class="section-number selfRef">4. </a><a href="#name-workshop-participants" class="section-name selfRef">Workshop participants</a>
+      </h2>
+<p id="section-4-1">The following is an alphabetical list of participants in the workshop.<a href="#section-4-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-4-2.1">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.1.1">
+<li id="section-4-2.1.1.1">Stephen Farrell (Trinity College Dublin/IAB)<a href="#section-4-2.1.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.2">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.2.1">
+<li id="section-4-2.2.1.1">Oliver Gasser (Max Planck Institute for Informatics)<a href="#section-4-2.2.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.3">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.3.1">
+<li id="section-4-2.3.1.1">Jari Arkko (Ericsson/IAB)<a href="#section-4-2.3.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.4">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.4.1">
+<li id="section-4-2.4.1.1">Romain Fontugne (IIJ Research Lab)<a href="#section-4-2.4.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.5">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.5.1">
+<li id="section-4-2.5.1.1">Oliver Hohlfeld (Brandenburg University of Technology, BTU)<a href="#section-4-2.5.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.6">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.6.1">
+<li id="section-4-2.6.1.1">Lixia Zhang (UCLA)<a href="#section-4-2.6.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.7">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.7.1">
+<li id="section-4-2.7.1.1">Marco Mellia (Politecnico di Torino)<a href="#section-4-2.7.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.8">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.8.1">
+<li id="section-4-2.8.1.1">Ricky Mok (CAIDA)<a href="#section-4-2.8.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.9">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.9.1">
+<li id="section-4-2.9.1.1">Yunan Gu (Huawei)<a href="#section-4-2.9.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.10">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.10.1">
+<li id="section-4-2.10.1.1">Zhenbin Li (Huawei/IAB)<a href="#section-4-2.10.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.11">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.11.1">
+<li id="section-4-2.11.1.1">Martino Trevisan<a href="#section-4-2.11.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.12">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.12.1">
+<li id="section-4-2.12.1.1">Kenjiro Cho (IIJ)<a href="#section-4-2.12.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.13">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.13.1">
+<li id="section-4-2.13.1.1">Kirsty P (NCSC)<a href="#section-4-2.13.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.14">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.14.1">
+<li id="section-4-2.14.1.1">Karen O'Donoghue (Internet Society)<a href="#section-4-2.14.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.15">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.15.1">
+<li id="section-4-2.15.1.1">Jiankang Yao (CNNIC)<a href="#section-4-2.15.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.16">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.16.1">
+<li id="section-4-2.16.1.1">Jason Livingood (Comcast)<a href="#section-4-2.16.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.17">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.17.1">
+<li id="section-4-2.17.1.1">Mirja Kuhlewind (Ericsson/IAB)<a href="#section-4-2.17.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.18">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.18.1">
+<li id="section-4-2.18.1.1">Idilio Drago (University of Turin)<a href="#section-4-2.18.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.19">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.19.1">
+<li id="section-4-2.19.1.1">Gergios Tselentis (European Commission)<a href="#section-4-2.19.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.20">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.20.1">
+<li id="section-4-2.20.1.1">Franziska Lichtblau (Max Planck Institute for Informatics)<a href="#section-4-2.20.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.21">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.21.1">
+<li id="section-4-2.21.1.1">Diego Perino (Telefonica Research)<a href="#section-4-2.21.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.22">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.22.1">
+<li id="section-4-2.22.1.1">David Clark (MIT CSAIL)<a href="#section-4-2.22.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.23">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.23.1">
+<li id="section-4-2.23.1.1">Chris Dietzel (DE-CIX)<a href="#section-4-2.23.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.24">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.24.1">
+<li id="section-4-2.24.1.1">Ben Campbell (Independent/IAB)<a href="#section-4-2.24.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.25">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.25.1">
+<li id="section-4-2.25.1.1">Anja Feldmann (Max Planck Institute for Informatics)<a href="#section-4-2.25.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.26">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.26.1">
+<li id="section-4-2.26.1.1">R Martin EC (?)<a href="#section-4-2.26.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.27">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.27.1">
+<li id="section-4-2.27.1.1">Andra Lutu (Telefonica Research)<a href="#section-4-2.27.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.28">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.28.1">
+<li id="section-4-2.28.1.1">Matt Matthis (Google)<a href="#section-4-2.28.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.29">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.29.1">
+<li id="section-4-2.29.1.1">kc Claffy (CAIDA)<a href="#section-4-2.29.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.30">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.30.1">
+<li id="section-4-2.30.1.1">Anant Shah (Verizon Media Platform)<a href="#section-4-2.30.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.31">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.31.1">
+<li id="section-4-2.31.1.1">Colin Perkins (University of Glasgow/IRTF/IAB)<a href="#section-4-2.31.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.32">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.32.1">
+<li id="section-4-2.32.1.1">Francesca Soro (Politecnico di Torino)<a href="#section-4-2.32.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.33">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.33.1">
+<li id="section-4-2.33.1.1">Cullen Jennings (Cisco/IAB)<a href="#section-4-2.33.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.34">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.34.1">
+<li id="section-4-2.34.1.1">Enric Pujol (Benocs)<a href="#section-4-2.34.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.35">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.35.1">
+<li id="section-4-2.35.1.1">Andrew Campling (419 Consulting)<a href="#section-4-2.35.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.36">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.36.1">
+<li id="section-4-2.36.1.1">Jared Mauch (Akamai/IAB)<a href="#section-4-2.36.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.37">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.37.1">
+<li id="section-4-2.37.1.1">Brian Trammell (Google)<a href="#section-4-2.37.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.38">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.38.1">
+<li id="section-4-2.38.1.1">Lan Wang (University of Memphis)<a href="#section-4-2.38.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.39">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.39.1">
+<li id="section-4-2.39.1.1">Dominique Lazanski<a href="#section-4-2.39.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.40">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.40.1">
+<li id="section-4-2.40.1.1">Rob Wilton (Cisco)<a href="#section-4-2.40.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.41">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.41.1">
+<li id="section-4-2.41.1.1">Jana Iyengar (Fastly)<a href="#section-4-2.41.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.42">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.42.1">
+<li id="section-4-2.42.1.1">Deep Medhi (NSF)<a href="#section-4-2.42.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.43">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.43.1">
+<li id="section-4-2.43.1.1">Vesna Manojlovic (RIPE NCC)<a href="#section-4-2.43.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.44">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.44.1">
+<li id="section-4-2.44.1.1">Daniel Kahn Gillmor (ACLU)<a href="#section-4-2.44.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+        <li class="normal" id="section-4-2.45">
+          <ol start="1" type="1" class="normal type-1" id="section-4-2.45.1">
+<li id="section-4-2.45.1.1">Larry Masinter (Retired)<a href="#section-4-2.45.1.1" class="pilcrow">¶</a>
+</li>
+          </ol>
+</li>
+      </ul>
 </section>
 </div>
 <div id="acknowledgments">
-<section id="section-3">
+<section id="section-5">
       <h2 id="name-acknowledgments">
-<a href="#section-3" class="section-number selfRef">3. </a><a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
-    </h2>
+<a href="#section-5" class="section-number selfRef">5. </a><a href="#name-acknowledgments" class="section-name selfRef">Acknowledgments</a>
+      </h2>
+<p id="section-5-1">The authors would like to thank the workshop participants, the members
+of the IAB, the participants in the architecture discussion list
+for interesting discussions, and Cindy Morgan for the practical
+arrangements.<a href="#section-5-1" class="pilcrow">¶</a></p>
 </section>
 </div>
+<section id="section-6">
+      <h2 id="name-informative-references">
+<a href="#section-6" class="section-number selfRef">6. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
+      </h2>
+<dl class="references">
+<dt id="Afxanasyev2020">[Afxanasyev2020]</dt>
+      <dd>
+<span class="refAuthor">Afxanasyev, A, .</span><span class="refAuthor">, Wang, L, .</span><span class="refAuthor">, Yeh, E, .</span><span class="refAuthor">, Zhang, B, .</span><span class="refAuthor">, and . Zhang, L</span>, <span class="refTitle">"Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Arkko2020">[Arkko2020]</dt>
+      <dd>
+<span class="refAuthor">Arkko, Jari, .</span>, <span class="refTitle">"Observations on Network User Behaviour During COVID-19"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Bronzino2020">[Bronzino2020]</dt>
+      <dd>
+<span class="refAuthor">Bronzino, F, .</span><span class="refAuthor">, Culley, E, .</span><span class="refAuthor">, Feamster, N, .</span><span class="refAuthor">, S, Liu.</span><span class="refAuthor">, J, Livingood.</span><span class="refAuthor">, and . Schmitt, P</span>, <span class="refTitle">"IAB COVID-19 Workshop: Interconnection Changes in the United States"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Campling2020">[Campling2020]</dt>
+      <dd>
+<span class="refAuthor">Campling, Andrew, .</span><span class="refAuthor"> and . Lazanski, Dominique</span>, <span class="refTitle">"Will the Internet Still Be Resilient During the Next Black Swan Event?"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Cho2020">[Cho2020]</dt>
+      <dd>
+<span class="refAuthor">Cho, Kenjiro, .</span>, <span class="refTitle">"On the COVID-19 Impact to broadband traffic in Japan"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Clark2020">[Clark2020]</dt>
+      <dd>
+<span class="refAuthor">Clark, D, .</span>, <span class="refTitle">"Measurement of congestion on ISP interconnection links"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Favale2020">[Favale2020]</dt>
+      <dd>
+<span class="refAuthor">Favale, T, .</span><span class="refAuthor">, Soro, F, .</span><span class="refAuthor">, Trevisan, M, .</span><span class="refAuthor">, Drago, I, .</span><span class="refAuthor">, and . Mellia, M</span>, <span class="refTitle">"Campus traffic and e-Learning during COVID-19 pandemic"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Feldmann2020">[Feldmann2020]</dt>
+      <dd>
+<span class="refAuthor">Feldmann, A, .</span><span class="refAuthor">, Gasser, O, .</span><span class="refAuthor">, Lichtblau, F, .</span><span class="refAuthor">, Pujol, E, .</span><span class="refAuthor">, Poese, I, .</span><span class="refAuthor">, Dietzel, C, .</span><span class="refAuthor">, Wagner, D, .</span><span class="refAuthor">, Wichtlhuber, M, .</span><span class="refAuthor">, Tapiador, J, .</span><span class="refAuthor">, Vallina-Rodriguez, N, .</span><span class="refAuthor">, Hohlfeld, O, .</span><span class="refAuthor">, and . Smaragdakis, G</span>, <span class="refTitle">"A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Fontugne2020">[Fontugne2020]</dt>
+      <dd>
+<span class="refAuthor">Fontugne, R, .</span><span class="refAuthor">, Shah, A, .</span><span class="refAuthor">, and . Cho, K</span>, <span class="refTitle">"The Impact of COVID-19 on Last-mile Latency"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Gillmor2020">[Gillmor2020]</dt>
+      <dd>
+<span class="refAuthor">Gillmor, D, .</span>, <span class="refTitle">"Vaccines, Privacy, Software Updates, and Trust"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Gu2020">[Gu2020]</dt>
+      <dd>
+<span class="refAuthor">Gu, Y, .</span><span class="refAuthor"> and . Li, Z</span>, <span class="refTitle">"Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Jennings2020">[Jennings2020]</dt>
+      <dd>
+<span class="refAuthor">Jennings, C, .</span><span class="refAuthor"> and . Kozanian, P</span>, <span class="refTitle">"WebEx Scaling During Covidb"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Kirsty2020">[Kirsty2020]</dt>
+      <dd>
+<span class="refAuthor">Kirsty P, .</span>, <span class="refTitle">"IAB COVID-19 Network Impacts"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Lutu2020">[Lutu2020]</dt>
+      <dd>
+<span class="refAuthor">Lutu, A, .</span><span class="refAuthor">, Perino, D, .</span><span class="refAuthor">, Bagnulo, M, .</span><span class="refAuthor">, Frias-Martinez, E, .</span><span class="refAuthor">, and . Khangosstar, J</span>, <span class="refTitle">"A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+<dt id="Mok2020">[Mok2020]</dt>
+    <dd>
+<span class="refAuthor">Mok, Ricky, .</span><span class="refAuthor"> and . claffy, kc</span>, <span class="refTitle">"Measuring the impact of COVID-19 on cloud network performance"</span>, <span class="seriesInfo">Position paper in the 2020 IAB COVID-19 Network Impacts workshop. </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<dd class="break"></dd>
+</dl>
+</section>
 <div id="authors-addresses">
 <section id="section-appendix.a">
       <h2 id="name-authors-addresses">

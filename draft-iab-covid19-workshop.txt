@@ -5,10 +5,10 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 17 May 2021                                                    
+Expires: 18 June 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
-                                                        13 November 2020
+                                                        15 December 2020
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -16,9 +16,14 @@ Expires: 17 May 2021
 
 Abstract
 
+   The COVID-19 pandemic caused changes in Internet traffic,
+   particularly during the introduction of the initial quarantine and
+   work-from-home arrangements.
+
    The Internet Architecture Board (IAB) held a work to discuss Network
-   Impacts of the COVID-19 pandemic, on November 9-13, 2020, online
-   given the on-going travel and contact restrictions at that time.
+   Impacts of the pandemic, on November 9-13, 2020.  The meeting was
+   held online given the on-going travel and contact restrictions at
+   that time.
 
 Discussion Venues
 
@@ -42,7 +47,16 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 May 2021.
+   This Internet-Draft will expire on 18 June 2021.
+
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 1]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
 
 Copyright Notice
 
@@ -60,19 +74,50 @@ Copyright Notice
 
 Table of Contents
 
-   1.  Introduction
-   2.  Topic and Scope
-     2.1.  Measurement-based Observation on Network Traffic Dynamics
-       2.1.1.  Overall traffic growth
-       2.1.2.  Changes in traffic patterns
-       2.1.3.  A deeper look at interconnections
-       2.1.4.  Last mile congestion
-     2.2.  Operational Practices and Changes
-     2.3.  Architectural Consideration and Conclusion for Future
-   3.  Acknowledgments
-   Authors' Addresses
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Topic and Scope . . . . . . . . . . . . . . . . . . . . . . .   3
+     2.1.  Measurement-based Observation on Network Traffic
+           Dynamics  . . . . . . . . . . . . . . . . . . . . . . . .   3
+       2.1.1.  Overall traffic growth  . . . . . . . . . . . . . . .   3
+       2.1.2.  Changes in traffic patterns . . . . . . . . . . . . .   3
+       2.1.3.  A deeper look at interconnections . . . . . . . . . .   3
+       2.1.4.  Last mile congestion  . . . . . . . . . . . . . . . .   3
+       2.1.5.  User Behaviour  . . . . . . . . . . . . . . . . . . .   3
+     2.2.  Operational Practices and Changes . . . . . . . . . . . .   4
+     2.3.  Architectural Consideration and Conclusion for Future . .   4
+     2.4.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .   4
+   3.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .   4
+   4.  Workshop participants . . . . . . . . . . . . . . . . . . . .   5
+   5.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .   7
+   6.  Informative References  . . . . . . . . . . . . . . . . . . .   7
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   9
 
 1.  Introduction
+
+   The Internet Architecture Board (IAB) held a work to discuss Network
+   Impacts of the COVID-19 pandemic, on November 9-13, 2020.  The
+   meeting was held online given the on-going travel and contact
+   restrictions at that time.
+
+   COVID-19 has caused changes in Internet traffic.  These changes
+   appeared rather abruptly, in particular during the introduction of
+   the initial quarantine and work-from-home arrangements.  The changes
+   relate to traffic volumes, location of traffic, as well as the types
+   of traffic and applications used.
+
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 2]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+   A total of 15 position papers were received from 33 authors, listed
+   in Section 3.  In addition, several other types of contributions and
+   pointers to existing work were provided.  On the workshop conference
+   calls were 45 participants, listed in Section 4.
 
 2.  Topic and Scope
 
@@ -91,21 +136,340 @@ Table of Contents
 
 2.1.1.  Overall traffic growth
 
+   TBD...
+
 2.1.2.  Changes in traffic patterns
+
+   TBD...
 
 2.1.2.1.  Example campus network
 
+   TBD...
+
 2.1.2.2.  Example mobile networks
+
+   TBD...
 
 2.1.3.  A deeper look at interconnections
 
+   TBD...
+
 2.1.4.  Last mile congestion
+
+   TBD...
+
+2.1.5.  User Behaviour
+
+   TBD...
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 3]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
 
 2.2.  Operational Practices and Changes
 
+   TBD...
+
 2.3.  Architectural Consideration and Conclusion for Future
 
-3.  Acknowledgments
+   TBD...
+
+2.4.  Conclusions
+
+   TBD...
+
+3.  Position Papers
+
+   The following position papers were received, in alphabetical order:
+
+   *  Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.:
+      Identifying the Disease from the Symptoms: Lessons for Networking
+      in the COVID-19 Era [Afxanasyev2020]
+
+   *  Arkko, Jari: Observations on Network User Behaviour During
+      COVID-19 [Arkko2020]
+
+   *  Bronzino, F., Culley, E., Feamster, N.  Liu. S., Livingood.  J.,
+      and Schmitt, P.: IAB COVID-19 Workshop: Interconnection Changes in
+      the United States [Bronzino2020]
+
+   *  Campling, Andrew and Lazanski, Dominique: Will the Internet Still
+      Be Resilient During the Next Black Swan Event?  [Campling2020]
+
+   *  Cho, Kenjiro: On the COVID-19 Impact to broadband traffic in Japan
+      [Cho2020]
+
+   *  Clark, D.: Measurement of congestion on ISP interconnection links
+      [Clark2020]
+
+   *  Favale, T., Soro, F., Trevisan, M., Drago, I., and Mellia, M.:
+      Campus traffic and e-Learning during COVID-19 pandemic
+      [Favale2020]
+
+   *  Feldmann, A., Gasser, O., Lichtblau, F., Pujol, E., Poese, I.,
+      Dietzel, C., Wagner, D., Wichtlhuber, M., Tapiador, J., Vallina-
+      Rodriguez, N., Hohlfeld, O., and Smaragdakis, G.: A view of
+      Internet Traffic Shifts at ISP and IXPs during the COVID-19
+      Pandemic [Feldmann2020]
+
+   *  Fontugne, R., Shah, A., and Cho, K.: The Impact of COVID-19 on
+      Last-mile Latency [Fontugne2020]
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 4]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+   *  Gillmor, D.: Vaccines, Privacy, Software Updates, and Trust
+      [Gillmor2020]
+
+   *  Gu, Y. and Li, Z.  Covid 19 Impact on China ISP's Network Traffic
+      Pattern and Solution Discussion [Gu2020]
+
+   *  Jennings, C. and Kozanian, P.: WebEx Scaling During Covid
+      [Jennings2020]
+
+   *  Lutu, A., Perino, D., Bagnulo, M., Frias-Martinez, E., and
+      Khangosstar, J.: A Characterization of the COVID-19 Pandemic
+      Impact on a Mobile Network Operator Traffic [Lutu2020]
+
+   *  Mok, Ricky, and claffy, kc: Measuring the impact of COVID-19 on
+      cloud network performance [Mok2020]
+
+   *  Kirsty P: IAB COVID-19 Network Impacts [Kirsty2020]
+
+4.  Workshop participants
+
+   The following is an alphabetical list of participants in the
+   workshop.
+
+      1.  Stephen Farrell (Trinity College Dublin/IAB)
+
+      1.  Oliver Gasser (Max Planck Institute for Informatics)
+
+      1.  Jari Arkko (Ericsson/IAB)
+
+      1.  Romain Fontugne (IIJ Research Lab)
+
+      1.  Oliver Hohlfeld (Brandenburg University of Technology, BTU)
+
+      1.  Lixia Zhang (UCLA)
+
+      1.  Marco Mellia (Politecnico di Torino)
+
+      1.  Ricky Mok (CAIDA)
+
+      1.  Yunan Gu (Huawei)
+
+      1.  Zhenbin Li (Huawei/IAB)
+
+      1.  Martino Trevisan
+
+      1.  Kenjiro Cho (IIJ)
+
+      1.  Kirsty P (NCSC)
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 5]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+      1.  Karen O'Donoghue (Internet Society)
+
+      1.  Jiankang Yao (CNNIC)
+
+      1.  Jason Livingood (Comcast)
+
+      1.  Mirja Kuhlewind (Ericsson/IAB)
+
+      1.  Idilio Drago (University of Turin)
+
+      1.  Gergios Tselentis (European Commission)
+
+      1.  Franziska Lichtblau (Max Planck Institute for Informatics)
+
+      1.  Diego Perino (Telefonica Research)
+
+      1.  David Clark (MIT CSAIL)
+
+      1.  Chris Dietzel (DE-CIX)
+
+      1.  Ben Campbell (Independent/IAB)
+
+      1.  Anja Feldmann (Max Planck Institute for Informatics)
+
+      1.  R Martin EC (?)
+
+      1.  Andra Lutu (Telefonica Research)
+
+      1.  Matt Matthis (Google)
+
+      1.  kc Claffy (CAIDA)
+
+      1.  Anant Shah (Verizon Media Platform)
+
+      1.  Colin Perkins (University of Glasgow/IRTF/IAB)
+
+      1.  Francesca Soro (Politecnico di Torino)
+
+      1.  Cullen Jennings (Cisco/IAB)
+
+      1.  Enric Pujol (Benocs)
+
+      1.  Andrew Campling (419 Consulting)
+
+      1.  Jared Mauch (Akamai/IAB)
+
+      1.  Brian Trammell (Google)
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 6]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+      1.  Lan Wang (University of Memphis)
+
+      1.  Dominique Lazanski
+
+      1.  Rob Wilton (Cisco)
+
+      1.  Jana Iyengar (Fastly)
+
+      1.  Deep Medhi (NSF)
+
+      1.  Vesna Manojlovic (RIPE NCC)
+
+      1.  Daniel Kahn Gillmor (ACLU)
+
+      1.  Larry Masinter (Retired)
+
+5.  Acknowledgments
+
+   The authors would like to thank the workshop participants, the
+   members of the IAB, the participants in the architecture discussion
+   list for interesting discussions, and Cindy Morgan for the practical
+   arrangements.
+
+6.  Informative References
+
+   [Afxanasyev2020]
+              Afxanasyev, A, ., Wang, L, ., Yeh, E, ., Zhang, B, ., and
+              . Zhang, L, "Identifying the Disease from the Symptoms:
+              Lessons for Networking in the COVID-19 Era", Position
+              paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
+              October 2020.
+
+   [Arkko2020]
+              Arkko, Jari, ., "Observations on Network User Behaviour
+              During COVID-19", Position paper in the 2020 IAB COVID-19
+              Network Impacts workshop. , October 2020.
+
+   [Bronzino2020]
+              Bronzino, F, ., Culley, E, ., Feamster, N, ., S, Liu., J,
+              Livingood., and . Schmitt, P, "IAB COVID-19 Workshop:
+              Interconnection Changes in the United States", Position
+              paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
+              October 2020.
+
+
+
+
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 7]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+   [Campling2020]
+              Campling, Andrew, . and . Lazanski, Dominique, "Will the
+              Internet Still Be Resilient During the Next Black Swan
+              Event?", Position paper in the 2020 IAB COVID-19 Network
+              Impacts workshop. , October 2020.
+
+   [Cho2020]  Cho, Kenjiro, ., "On the COVID-19 Impact to broadband
+              traffic in Japan", Position paper in the 2020 IAB COVID-19
+              Network Impacts workshop. , October 2020.
+
+   [Clark2020]
+              Clark, D, ., "Measurement of congestion on ISP
+              interconnection links", Position paper in the 2020 IAB
+              COVID-19 Network Impacts workshop. , October 2020.
+
+   [Favale2020]
+              Favale, T, ., Soro, F, ., Trevisan, M, ., Drago, I, ., and
+              . Mellia, M, "Campus traffic and e-Learning during
+              COVID-19 pandemic", Position paper in the 2020 IAB
+              COVID-19 Network Impacts workshop. , October 2020.
+
+   [Feldmann2020]
+              Feldmann, A, ., Gasser, O, ., Lichtblau, F, ., Pujol, E,
+              ., Poese, I, ., Dietzel, C, ., Wagner, D, ., Wichtlhuber,
+              M, ., Tapiador, J, ., Vallina-Rodriguez, N, ., Hohlfeld,
+              O, ., and . Smaragdakis, G, "A view of Internet Traffic
+              Shifts at ISP and IXPs during the COVID-19 Pandemic",
+              Position paper in the 2020 IAB COVID-19 Network Impacts
+              workshop. , October 2020.
+
+   [Fontugne2020]
+              Fontugne, R, ., Shah, A, ., and . Cho, K, "The Impact of
+              COVID-19 on Last-mile Latency", Position paper in the 2020
+              IAB COVID-19 Network Impacts workshop. , October 2020.
+
+   [Gillmor2020]
+              Gillmor, D, ., "Vaccines, Privacy, Software Updates, and
+              Trust", Position paper in the 2020 IAB COVID-19 Network
+              Impacts workshop. , October 2020.
+
+   [Gu2020]   Gu, Y, . and . Li, Z, "Covid 19 Impact on China ISP's
+              Network Traffic Pattern and Solution Discussion", Position
+              paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
+              October 2020.
+
+
+
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 8]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
+   [Jennings2020]
+              Jennings, C, . and . Kozanian, P, "WebEx Scaling During
+              Covidb", Position paper in the 2020 IAB COVID-19 Network
+              Impacts workshop. , October 2020.
+
+   [Kirsty2020]
+              Kirsty P, ., "IAB COVID-19 Network Impacts", Position
+              paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
+              October 2020.
+
+   [Lutu2020] Lutu, A, ., Perino, D, ., Bagnulo, M, ., Frias-Martinez,
+              E, ., and . Khangosstar, J, "A Characterization of the
+              COVID-19 Pandemic Impact on a Mobile Network Operator
+              Traffic", Position paper in the 2020 IAB COVID-19 Network
+              Impacts workshop. , October 2020.
+
+   [Mok2020]  Mok, Ricky, . and . claffy, kc, "Measuring the impact of
+              COVID-19 on cloud network performance", Position paper in
+              the 2020 IAB COVID-19 Network Impacts workshop. , October
+              2020.
 
 Authors' Addresses
 
@@ -124,3 +488,17 @@ Authors' Addresses
    Ericsson
 
    Email: mirja.kuehlewind@ericsson.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+Arkko, et al.             Expires 18 June 2021                  [Page 9]
