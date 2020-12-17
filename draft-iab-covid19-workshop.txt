@@ -5,10 +5,10 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 18 June 2021                                                   
+Expires: 20 June 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
-                                                        15 December 2020
+                                                        17 December 2020
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -47,13 +47,13 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 June 2021.
+   This Internet-Draft will expire on 20 June 2021.
 
 
 
 
 
-Arkko, et al.             Expires 18 June 2021                  [Page 1]
+Arkko, et al.             Expires 20 June 2021                  [Page 1]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
@@ -75,14 +75,14 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
-   2.  Topic and Scope . . . . . . . . . . . . . . . . . . . . . . .   3
+   2.  Topics and Scope  . . . . . . . . . . . . . . . . . . . . . .   3
      2.1.  Measurement-based Observation on Network Traffic
            Dynamics  . . . . . . . . . . . . . . . . . . . . . . . .   3
        2.1.1.  Overall traffic growth  . . . . . . . . . . . . . . .   3
        2.1.2.  Changes in traffic patterns . . . . . . . . . . . . .   3
-       2.1.3.  A deeper look at interconnections . . . . . . . . . .   3
-       2.1.4.  Last mile congestion  . . . . . . . . . . . . . . . .   3
-       2.1.5.  User Behaviour  . . . . . . . . . . . . . . . . . . .   3
+       2.1.3.  A deeper look at interconnections . . . . . . . . . .   4
+       2.1.4.  Last mile congestion  . . . . . . . . . . . . . . . .   4
+       2.1.5.  User Behaviour  . . . . . . . . . . . . . . . . . . .   4
      2.2.  Operational Practices and Changes . . . . . . . . . . . .   4
      2.3.  Architectural Consideration and Conclusion for Future . .   4
      2.4.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .   4
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Arkko, et al.             Expires 18 June 2021                  [Page 2]
+Arkko, et al.             Expires 20 June 2021                  [Page 2]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
@@ -119,28 +119,38 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
    pointers to existing work were provided.  On the workshop conference
    calls were 45 participants, listed in Section 4.
 
-2.  Topic and Scope
+   The workshop was organized over one week hosting three sessions
+   covering measuremnets and observations, operational issue, and final
+   future consideration and conclusions.  As these three session were
+   scheduled Monday, Wednesday, and Friday a positive side effect was
+   that the time in between could be used foor mailing list discusion
+   and compliation of additional workshop material.
+
+2.  Topics and Scope
+
+   [Add some text from call for papers here?]
 
 2.1.  Measurement-based Observation on Network Traffic Dynamics
 
-   Significant increase in traffic growth rate in March/April
+   The workshop started with a focus on measurements.  A larger portion
+   of the submitted papers presented and discussed measurement data and
+   these submissions provided a good basis get a better understanding of
+   the situation, covering different angles and aspects of network
+   traffic and kind of networks.
+
+2.1.1.  Overall traffic growth
+
+   Based on the measuremenst data of one ISP, three IXPs, a metropolitan
+   educational network, and a mobile operator it was observed at the
+   beginning of the workshop that overall the network was able to handle
+   the situation well despite an significant increase in traffic growth
+   rate in March/April.
+
+2.1.2.  Changes in traffic patterns
 
    Changes in the traffic patterns: Traffic in mobile network decreased
    and traffic from home network increased.  Strong increase in video
    conferencing (incl remote schooling)
-
-   Network load noticeably increased but most operators reacted quickly
-   by adding new capacity (earlier?)
-
-   Last mile congestion/higher latency on legacy network (PPPoE)
-
-2.1.1.  Overall traffic growth
-
-   TBD...
-
-2.1.2.  Changes in traffic patterns
-
-   TBD...
 
 2.1.2.1.  Example campus network
 
@@ -150,25 +160,28 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
    TBD...
 
+
+
+
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 3]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
 2.1.3.  A deeper look at interconnections
 
-   TBD...
+   Network load noticeably increased but most operators reacted quickly
+   by adding new capacity (earlier?)
 
 2.1.4.  Last mile congestion
 
-   TBD...
+   Last mile congestion/higher latency on legacy network (PPPoE)
 
 2.1.5.  User Behaviour
 
    TBD...
-
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 3]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
 2.2.  Operational Practices and Changes
 
@@ -206,6 +219,13 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
    *  Clark, D.: Measurement of congestion on ISP interconnection links
       [Clark2020]
 
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 4]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
    *  Favale, T., Soro, F., Trevisan, M., Drago, I., and Mellia, M.:
       Campus traffic and e-Learning during COVID-19 pandemic
       [Favale2020]
@@ -218,13 +238,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
    *  Fontugne, R., Shah, A., and Cho, K.: The Impact of COVID-19 on
       Last-mile Latency [Fontugne2020]
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 4]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
    *  Gillmor, D.: Vaccines, Privacy, Software Updates, and Trust
       [Gillmor2020]
@@ -261,6 +274,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
    *  David Clark (MIT CSAIL)
 
+
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 5]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
    *  Chris Dietzel (DE-CIX)
 
    *  Idilio Drago (University of Turin)
@@ -274,13 +295,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
    *  Oliver Gasser (Max Planck Institute for Informatics)
 
    *  Daniel Kahn Gillmor (ACLU)
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 5]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
    *  Yunan Gu (Huawei)
 
@@ -316,6 +330,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
 
    *  Marco Mellia (Politecnico di Torino)
 
+
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 6]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
    *  Ricky Mok (CAIDA)
 
    *  Karen O'Donoghue (Internet Society)
@@ -329,14 +351,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
    *  Enric Pujol (Benocs)
 
    *  Anant Shah (Verizon Media Platform)
-
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 6]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
    *  Francesca Soro (Politecnico di Torino)
 
@@ -370,6 +384,16 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
               paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
               October 2020.
 
+
+
+
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 7]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
    [Arkko2020]
               Arkko, Jari, ., "Observations on Network User Behaviour
               During COVID-19", Position paper in the 2020 IAB COVID-19
@@ -381,18 +405,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
               Interconnection Changes in the United States", Position
               paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
               October 2020.
-
-
-
-
-
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 7]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
    [Campling2020]
               Campling, Andrew, . and . Lazanski, Dominique, "Will the
@@ -429,6 +441,15 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
               COVID-19 on Last-mile Latency", Position paper in the 2020
               IAB COVID-19 Network Impacts workshop. , October 2020.
 
+
+
+
+
+Arkko, et al.             Expires 20 June 2021                  [Page 8]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
+
+
    [Gillmor2020]
               Gillmor, D, ., "Vaccines, Privacy, Software Updates, and
               Trust", Position paper in the 2020 IAB COVID-19 Network
@@ -438,17 +459,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
               Network Traffic Pattern and Solution Discussion", Position
               paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
               October 2020.
-
-
-
-
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 8]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   December 2020
-
 
    [Jennings2020]
               Jennings, C, . and . Kozanian, P, "WebEx Scaling During
@@ -491,14 +501,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-
-
-
-
-
-
-Arkko, et al.             Expires 18 June 2021                  [Page 9]
+Arkko, et al.             Expires 20 June 2021                  [Page 9]
