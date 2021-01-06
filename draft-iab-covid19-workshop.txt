@@ -12,7 +12,7 @@ Expires: 10 July 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
-                   draft-iab-covid19-workshop-latest
+                     draft-iab-covid19-workshop-00
 
 Abstract
 
