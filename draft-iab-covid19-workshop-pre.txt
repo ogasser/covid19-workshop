@@ -66,22 +66,23 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-   2.  Topics and Scope
-     2.1.  Measurement-based Observation on Network Traffic Dynamics
-       2.1.1.  Overall traffic growth
-       2.1.2.  Changes in traffic patterns
-       2.1.3.  A deeper look at interconnections
-       2.1.4.  CDN networks
-       2.1.5.  Last mile congestion
-       2.1.6.  User Behaviour
-     2.2.  Operational Practices and Changes
-     2.3.  Architectural Consideration and Conclusion for Future
-     2.4.  Conclusions
-   3.  Position Papers
-   4.  Workshop participants
-   5.  Program Committee
-   6.  Acknowledgments
-   7.  Informative References
+   2.  Scope
+   3.  Discussion Topics
+     3.1.  Measurement-based Observation on Network Traffic Dynamics
+       3.1.1.  Overall traffic growth
+       3.1.2.  Changes in traffic patterns
+       3.1.3.  A deeper look at interconnections
+       3.1.4.  CDN networks
+       3.1.5.  Last mile congestion
+       3.1.6.  User Behaviour
+     3.2.  Operational Practices and Changes
+     3.3.  Architectural Consideration and Conclusion for Future
+     3.4.  Conclusions
+   4.  Position Papers
+   5.  Workshop participants
+   6.  Program Committee
+   7.  Acknowledgments
+   8.  Informative References
    Authors' Addresses
 
 1.  Introduction
@@ -100,7 +101,7 @@ Table of Contents
    Announcement for the workshop was sent out in July 2020, requesting
    interested parties to submit position papers for the workshop program
    committee.  A total of 15 position papers were received from
-   altogether 33 authors.  The papers are listed in Section 3.  In
+   altogether 33 authors.  The papers are listed in Section 4.  In
    addition, several other types of contributions and pointers to
    existing work were provided.  A number of position papers referred to
    parallel work being published in measurement-related academic
@@ -108,7 +109,7 @@ Table of Contents
 
    Invitations for the workshop were sent out based on the position
    papers and other expressions of interest.  On the workshop conference
-   calls were 45 participants, listed in Section 4.
+   calls were 45 participants, listed in Section 5.
 
    The workshop was held over one week hosting three sessions covering
    measuremnets and observations, operational issue, and final future
@@ -117,7 +118,7 @@ Table of Contents
    time in between could be used foor mailing list discusion and
    compilation of additional workshop material.
 
-2.  Topics and Scope
+2.  Scope
 
    The COVID-19 pandemic has had a tremendous impact on people's lives
    and the societies and economies around the globe.  But it also had
@@ -173,7 +174,9 @@ Table of Contents
 
    *  lessons learned for Internet technology and architecture
 
-2.1.  Measurement-based Observation on Network Traffic Dynamics
+3.  Discussion Topics
+
+3.1.  Measurement-based Observation on Network Traffic Dynamics
 
    The workshop started with a focus on measurements.  A larger portion
    of the submitted papers presented and discussed measurement data and
@@ -181,7 +184,7 @@ Table of Contents
    the situation, covering different angles and aspects of network
    traffic and kind of networks.
 
-2.1.1.  Overall traffic growth
+3.1.1.  Overall traffic growth
 
    Based on the measuremenst data of one ISP, three IXPs, a metropolitan
    educational network, and a mobile operator it was observed at the
@@ -189,98 +192,83 @@ Table of Contents
    the situation well despite an significant increase in traffic growth
    rate in March/April.
 
-2.1.2.  Changes in traffic patterns
+3.1.2.  Changes in traffic patterns
 
    Changes in the traffic patterns: Traffic in mobile network decreased
    and traffic from home network increased.  Strong increase in video
    conferencing (incl remote schooling)
 
-2.1.2.1.  Example campus network
+3.1.2.1.  Example campus network
 
    TBD...
 
-2.1.2.2.  Example mobile networks
+3.1.2.2.  Example mobile networks
 
    TBD...
 
-2.1.3.  A deeper look at interconnections
+3.1.3.  A deeper look at interconnections
 
    Network load noticeably increased but most operators reacted quickly
    by adding new capacity (earlier?)
 
-2.1.4.  CDN networks
+3.1.4.  CDN networks
 
-2.1.5.  Last mile congestion
+3.1.5.  Last mile congestion
 
    Last mile congestion/higher latency on legacy network (PPPoE)
 
-2.1.6.  User Behaviour
+3.1.6.  User Behaviour
 
-   The COVID-19 impact on networking was not merely about amount of
-   traffic.  The type of traffic also changed.  For instance, massive
-   increases were reported in the use of teleconferencing, e-learning,
-   and other similar tools.
-
-   Upstream traffic has increased due the use of video conferences,
-   remote schooling, and similar applications.  The NCTA and Comcast
-   reported that while downstream traffic grew 20%, upstream traffic
-   grew as much as 30% to 37% [NCTA2020] [Comcast2020].  Vodafone
-   reported that upstream traffic grew 100% in some markets
-   [Vodafone2020].
+   The type of traffic needed by the users also changed in 2020.
+   Upstream traffic increased due the use of video conferences, remote
+   schooling, and similar applications.  The NCTA and Comcast reported
+   that while downstream traffic grew 20%, upstream traffic grew as much
+   as 30% to 37% [NCTA2020] [Comcast2020].  Vodafone reported that
+   upstream traffic grew 100% in some markets [Vodafone2020].
 
    Ericsson's Consumer Lab surveyed users for their usage and
    experiences during the crisis).  Some of the key findings in
    [ConsumerlabReport2020] were:
 
-   *  9 in 10 users increased Internet activities.  Time spent connected
-      increased, by 2.5 hours for fixed broadband and 1 hour for mobile
-      broadband.  In addition, 1 in 5 started new activities such as
-      e-learning or video-conferencing.  Three quarters of the older
-      generation felt that they were helped by video calling with family
-      and friends.  Three in four parents felt that their children's
-      education was helped by ICT technology.
+   *  9 in 10 users increased Internet activities, and time spent
+      connected increased.  In addition, 1 in 5 started new online
+      activities, many in the older generation felt that they were
+      helped by video calling, parents felt that their children's
+      education was helped, and so on.
 
    *  Network performance was in general found satisfactory. 6 in 10
       were very satisfied with fixed broadband, and 3 in 4 felt that
       mobile broadband was same or better as before the crisis.
+      Consumers valued resilience and quality of service as the most
+      important task for network operators.
 
    *  Smartphone application usage changed, with fastest growth was in
       COVID-19, remote working, e-learning, wellness, education, remote
       health consulation, and social shared experience applications.
-      Biggest decreases were seen (unsurprisingly) in travel and
-      booking, ride hailing, location, and parking applications.
+      Biggest decreases were in travel and booking, ride hailing,
+      location, and parking applications.
 
-   *  Among many different service provider actions, maintaining network
-      resilience and quality of service was deemed as the most important
-      activity (64% saw this as very important and 34% as somewhat
-      important).
-
-   One interesting result of the changes is that some of the behaviours
-   are likely permanent changes.  According to [ConsumerlabReport2020] 6
-   in 10 working people in US wants to switch to video-based
-   conferences, even after the crisis has passed.  And 4 in 10 students
-   in US plan to continue taking online courses.  The adoption of video
-   calls and other new services by many consumers, such as the older
-   generation, is also likely going to have a long-lasting effect.
-
-   Similarly, anecdotal evidence and local surveys in various
+   Some of the behaviours are likely permanent changes
+   [ConsumerlabReport2020].  The adoption of video calls and other new
+   services by many consumers, such as the older generation, is likely
+   going to have a long-lasting effect.  Surveys in various
    organizations point to a likely long-term increase in the number of
-   people interested in remote work in their work arrangements
-   [WorkplaceAnalytics2020] [McKinsey2020].
+   people interested in remote work [WorkplaceAnalytics2020]
+   [McKinsey2020].
 
-2.2.  Operational Practices and Changes
-
-   TBD...
-
-2.3.  Architectural Consideration and Conclusion for Future
+3.2.  Operational Practices and Changes
 
    TBD...
 
-2.4.  Conclusions
+3.3.  Architectural Consideration and Conclusion for Future
 
    TBD...
 
-3.  Position Papers
+3.4.  Conclusions
+
+   TBD...
+
+4.  Position Papers
 
    The following position papers were received, in alphabetical order:
 
@@ -335,7 +323,7 @@ Table of Contents
 
    *  Kirsty P: IAB COVID-19 Network Impacts [Kirsty2020]
 
-4.  Workshop participants
+5.  Workshop participants
 
    The following is an alphabetical list of participants in the
    workshop.
@@ -430,20 +418,20 @@ Table of Contents
 
    *  Lixia Zhang (UCLA)
 
-5.  Program Committee
+6.  Program Committee
 
    The workshop Program Committee members were Jari Arkko, Stephen
    Farrell, Cullen Jennings, Colin Perkins, Ben Campbell, and Mirja
    Kuehlewind.
 
-6.  Acknowledgments
+7.  Acknowledgments
 
    The authors would like to thank the workshop participants, the
    members of the IAB, the program committee, the participants in the
    architecture discussion list for interesting discussions, and Cindy
    Morgan for the practical arrangements.
 
-7.  Informative References
+8.  Informative References
 
    [Afxanasyev2020]
               Afxanasyev, A, ., Wang, L, ., Yeh, E, ., Zhang, B, ., and
