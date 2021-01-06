@@ -88,12 +88,12 @@ Table of Contents
      3.2.  Operational Practices and Changes . . . . . . . . . . . .   6
      3.3.  Architectural Consideration and Conclusion for Future . .   6
      3.4.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .   6
-   4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .   6
-   5.  Workshop participants . . . . . . . . . . . . . . . . . . . .   7
-   6.  Program Committee . . . . . . . . . . . . . . . . . . . . . .   9
-   7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  10
-   8.  Informative References  . . . . . . . . . . . . . . . . . . .  10
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  12
+   4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .   7
+   5.  Workshop participants . . . . . . . . . . . . . . . . . . . .   9
+   6.  Program Committee . . . . . . . . . . . . . . . . . . . . . .  11
+   7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  11
+   8.  Informative References  . . . . . . . . . . . . . . . . . . .  11
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  13
 
 1.  Introduction
 
@@ -318,18 +318,18 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 3.4.  Conclusions
 
-   TBD...
+   There is a wealth of data about the performance of the Internet
+   during the criss.  The main conclusion from the various measurements
+   is that fairly large shifts occurred.  And those shifts were not
+   merely about changing one application for another, they actually
+   impacted traffic flows and directions, and caused in many cases a
+   significant traffic increase.  Early reports also seem to indicate
+   that the shifts have went relatively smoothly from the point of view
+   overall consumer experience.
 
-4.  Position Papers
 
-   The following position papers were received, in alphabetical order:
 
-   *  Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.:
-      Identifying the Disease from the Symptoms: Lessons for Networking
-      in the COVID-19 Era [Afxanasyev2020]
 
-   *  Arkko, Jari: Observations on Network User Behaviour During
-      COVID-19 [Arkko2020]
 
 
 
@@ -337,6 +337,69 @@ Arkko, et al.             Expires 10 July 2021                  [Page 6]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
+
+   An important but not so visible factor that lead to this was that
+   many people and organizations where highly motivated to ensure good
+   experience.  A lot of collaboration happened in the background,
+   problems were corrected, many providers significantly increased their
+   capacity, and so on.
+
+   In general, the Internet also seems inherently well suited for
+   adapting to a new situation, at least within some bounds.  The
+   Internet is designed for any application and situation, rather than
+   optimized for today's particular traffic.  This makes it possible to
+   use it for many applications, in many deployment situations, and make
+   changes as needed.  The generality is present in many parts of the
+   overall system, from basic Internet technology to browsers, from name
+   servers to content delivery networks and cloud platforms.  When needs
+   change, what is needed is often merely different services, perhaps
+   some re-allocation of resources, but not fundamental technology or
+   hardware changes.
+
+   On the other hand, this is not to say that no improvements are
+   needed:
+
+   *  Better understanding of the health of the Internet: Going forward,
+      the critical nature that Internet plays in our lives means that
+      the health of the Internet needs to receive significant attention.
+      Understanding how well networks work is not just a technical
+      matter, it is also of crucial importance to the people and economy
+      of the societies using it.  Projects and research that monitor
+      Internet and services performance in a broad scale and across
+      different networks are therefore important.
+
+   *  The pandemic has shown how the effects of the digital divide can
+      be amplified during a crisis.  More attention is needed to ensure
+      that broadband is available to all, and that Internet services
+      equally serve different groups.
+
+   *  We need to continue work on all the other improvements that are
+      seen necessary anyway, such as further improvements in security,
+      ability for networks and applications to collaborate better, etc.
+
+   *  Informal collaboration between different parties needs to continue
+      and be strengthened.
+
+4.  Position Papers
+
+   The following position papers were received, in alphabetical order:
+
+
+
+
+
+
+Arkko, et al.             Expires 10 July 2021                  [Page 7]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
+   *  Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.:
+      Identifying the Disease from the Symptoms: Lessons for Networking
+      in the COVID-19 Era [Afxanasyev2020]
+
+   *  Arkko, Jari: Observations on Network User Behaviour During
+      COVID-19 [Arkko2020]
 
    *  Bronzino, F., Culley, E., Feamster, N.  Liu. S., Livingood.  J.,
       and Schmitt, P.: IAB COVID-19 Workshop: Interconnection Changes in
@@ -380,19 +443,19 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    *  Mok, Ricky, and claffy, kc: Measuring the impact of COVID-19 on
       cloud network performance [Mok2020]
 
+
+
+Arkko, et al.             Expires 10 July 2021                  [Page 8]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    *  Kirsty P: IAB COVID-19 Network Impacts [Kirsty2020]
 
 5.  Workshop participants
 
    The following is an alphabetical list of participants in the
    workshop.
-
-
-
-Arkko, et al.             Expires 10 July 2021                  [Page 7]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
    *  Jari Arkko (Ericsson/IAB)
 
@@ -436,19 +499,18 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Zhenbin Li (Huawei/IAB)
 
+
+
+Arkko, et al.             Expires 10 July 2021                  [Page 9]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    *  Jason Livingood (Comcast)
 
    *  Andra Lutu (Telefonica Research)
 
    *  Vesna Manojlovic (RIPE NCC)
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                  [Page 8]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
    *  R Martin EC (?)
 
@@ -492,19 +554,19 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Lixia Zhang (UCLA)
 
+
+
+
+Arkko, et al.             Expires 10 July 2021                 [Page 10]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
 6.  Program Committee
 
    The workshop Program Committee members were Jari Arkko, Stephen
    Farrell, Cullen Jennings, Colin Perkins, Ben Campbell, and Mirja
    Kuehlewind.
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                  [Page 9]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
 7.  Acknowledgments
 
@@ -549,18 +611,17 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               interconnection links", Position paper in the 2020 IAB
               COVID-19 Network Impacts workshop. , October 2020.
 
+
+
+Arkko, et al.             Expires 10 July 2021                 [Page 11]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    [Comcast2020]
               Comcast, ., "COVID-19 Network Update",
               https://corporate.comcast.com/covid-19/network/may-20-2020
               , May 2020.
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                 [Page 10]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
    [ConsumerlabReport2020]
               Ericsson Consumer & IndustryLab, ., "Keeping consumers
@@ -604,19 +665,19 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               Covidb", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
 
+
+
+
+
+Arkko, et al.             Expires 10 July 2021                 [Page 12]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    [Kirsty2020]
               Kirsty P, ., "IAB COVID-19 Network Impacts", Position
               paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
               October 2020.
-
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                 [Page 11]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
    [Lutu2020] Lutu, A, ., Perino, D, ., Bagnulo, M, ., Frias-Martinez,
               E, ., and . Khangosstar, J, "A Characterization of the
@@ -660,18 +721,18 @@ Authors' Addresses
    Email: jari.arkko@ericsson.com
 
 
+
+
+
+
+Arkko, et al.             Expires 10 July 2021                 [Page 13]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    Stephen Farrell
 
    Email: stephen.farrell@cs.tcd.ie
-
-
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                 [Page 12]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
    Mirja Kühlewind
@@ -720,9 +781,4 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-
-
-
-
-
-Arkko, et al.             Expires 10 July 2021                 [Page 13]
+Arkko, et al.             Expires 10 July 2021                 [Page 14]
