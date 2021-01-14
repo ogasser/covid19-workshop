@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-01-12T00:39:06.337670+00:00",
+  "timestamp": "2021-01-14T00:53:30.206275+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -50,5 +50,34 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTU0MTQ0MDkx",
+      "title": "PoliTo content",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/1",
+      "state": "MERGED",
+      "author": "marty90",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-13T12:16:16Z",
+      "updatedAt": "2021-01-13T12:41:27Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "f2d6000b333be15a73b11f1e68d86327f56aac9d",
+      "headRepository": "marty90/covid19-workshop",
+      "headRefName": "patch-1",
+      "headRefOid": "d9344e0f04ce9091e36ddfa8c4162da539c38d37",
+      "closedAt": "2021-01-13T12:41:27Z",
+      "mergedAt": "2021-01-13T12:41:26Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "b91cbad9c7de3909e3bdea9fe58b8e4ca282e0a8"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
