@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-01-17T00:48:58.117136+00:00",
+  "timestamp": "2021-01-18T15:11:15.960240+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -76,6 +76,32 @@
       "mergeCommit": {
         "oid": "b91cbad9c7de3909e3bdea9fe58b8e4ca282e0a8"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTU2ODYzMDgx",
+      "title": "Add .circleci/config.yml",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/2",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-18T14:54:10Z",
+      "updatedAt": "2021-01-18T14:54:10Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "d9275f528fa742201b53bf9b1aeca36acc116753",
+      "headRepository": "intarchboard/covid19-workshop",
+      "headRefName": "circleci-project-setup",
+      "headRefOid": "ca7d45d16e125230036968850f0b0c38f8d36f69",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
