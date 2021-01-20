@@ -5,10 +5,10 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 22 July 2021                                                   
+Expires: 24 July 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
-                                                         18 January 2021
+                                                         20 January 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -47,13 +47,13 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 July 2021.
+   This Internet-Draft will expire on 24 July 2021.
 
 
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 1]
+Arkko, et al.             Expires 24 July 2021                  [Page 1]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 2]
+Arkko, et al.             Expires 24 July 2021                  [Page 2]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -165,7 +165,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 3]
+Arkko, et al.             Expires 24 July 2021                  [Page 3]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -221,7 +221,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 4]
+Arkko, et al.             Expires 24 July 2021                  [Page 4]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -277,7 +277,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 5]
+Arkko, et al.             Expires 24 July 2021                  [Page 5]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -333,7 +333,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 6]
+Arkko, et al.             Expires 24 July 2021                  [Page 6]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -389,7 +389,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 7]
+Arkko, et al.             Expires 24 July 2021                  [Page 7]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -445,7 +445,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 8]
+Arkko, et al.             Expires 24 July 2021                  [Page 8]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -501,7 +501,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-Arkko, et al.             Expires 22 July 2021                  [Page 9]
+Arkko, et al.             Expires 24 July 2021                  [Page 9]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
@@ -531,6 +531,8 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Stephen Farrell (Trinity College Dublin/IAB)
 
+   *  Nick Feamster (University of Chicago)
+
    *  Anja Feldmann (Max Planck Institute for Informatics)
 
    *  Romain Fontugne (IIJ Research Lab)
@@ -553,14 +555,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Dominique Lazanski
 
-   *  Zhenbin Li (Huawei/IAB)
 
 
-
-Arkko, et al.             Expires 22 July 2021                 [Page 10]
+Arkko, et al.             Expires 24 July 2021                 [Page 10]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
+
+   *  Zhenbin Li (Huawei/IAB)
 
    *  Jason Livingood (Comcast)
 
@@ -608,15 +610,15 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Jiankang Yao (CNNIC)
 
-   *  Lixia Zhang (UCLA)
 
 
 
-
-Arkko, et al.             Expires 22 July 2021                 [Page 11]
+Arkko, et al.             Expires 24 July 2021                 [Page 11]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
+
+   *  Lixia Zhang (UCLA)
 
 6.  Program Committee
 
@@ -663,16 +665,18 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               Event?", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
 
-   [Cho2020]  Cho, Kenjiro, ., "On the COVID-19 Impact to broadband
-              traffic in Japan", Position paper in the 2020 IAB COVID-19
-              Network Impacts workshop. , October 2020.
 
 
 
-Arkko, et al.             Expires 22 July 2021                 [Page 12]
+
+Arkko, et al.             Expires 24 July 2021                 [Page 12]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
+
+   [Cho2020]  Cho, Kenjiro, ., "On the COVID-19 Impact to broadband
+              traffic in Japan", Position paper in the 2020 IAB COVID-19
+              Network Impacts workshop. , October 2020.
 
    [Clark2020]
               Clark, D, ., "Measurement of congestion on ISP
@@ -717,18 +721,19 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               Proceedings of the ACM Internet Measurement Conference
               (IMC '20) , October 2020.
 
+
+
+
+
+Arkko, et al.             Expires 24 July 2021                 [Page 13]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    [Gillmor2020]
               Gillmor, D, ., "Vaccines, Privacy, Software Updates, and
               Trust", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
-
-
-
-
-Arkko, et al.             Expires 22 July 2021                 [Page 13]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
    [Gu2020]   Gu, Y, . and . Li, Z, "Covid 19 Impact on China ISP's
               Network Traffic Pattern and Solution Discussion", Position
@@ -774,17 +779,17 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               https://www.vodafone.com/covid19/news/update-on-vodafone-
               networks , April 2020.
 
+
+
+Arkko, et al.             Expires 24 July 2021                 [Page 14]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    [WorkplaceAnalytics2020]
               Kate Lister, ., "Work-At-Home After Covid-19—Our
               Forecast", https://globalworkplaceanalytics.com/work-at-
               home-after-covid-19-our-forecast , 2020.
-
-
-
-Arkko, et al.             Expires 22 July 2021                 [Page 14]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
 
 Authors' Addresses
 
@@ -832,9 +837,4 @@ Authors' Addresses
 
 
 
-
-
-
-
-
-Arkko, et al.             Expires 22 July 2021                 [Page 15]
+Arkko, et al.             Expires 24 July 2021                 [Page 15]

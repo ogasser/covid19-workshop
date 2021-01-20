@@ -5,10 +5,10 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 22 July 2021                                                   
+Expires: 24 July 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
-                                                         18 January 2021
+                                                         20 January 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 July 2021.
+   This Internet-Draft will expire on 24 July 2021.
 
 Copyright Notice
 
@@ -450,6 +450,8 @@ Table of Contents
    *  Idilio Drago (University of Turin)
 
    *  Stephen Farrell (Trinity College Dublin/IAB)
+
+   *  Nick Feamster (University of Chicago)
 
    *  Anja Feldmann (Max Planck Institute for Informatics)
 
