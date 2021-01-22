@@ -5,10 +5,10 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 24 July 2021                                                   
+Expires: 26 July 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
-                                                         20 January 2021
+                                                         22 January 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -21,9 +21,11 @@ Abstract
    work-from-home arrangements.
 
    The Internet Architecture Board (IAB) held a work to discuss Network
-   Impacts of the pandemic, on November 9-13, 2020.  The meeting was
-   held online given the on-going travel and contact restrictions at
-   that time.
+   Impacts of the pandemic, on November 9-13, 2020.  The workshop was
+   held to convene interested researchers, network operators, and
+   network management experts, and Internet technologists to share their
+   experiences.  The meeting was held online given the on-going travel
+   and contact restrictions at that time.
 
 Discussion Venues
 
@@ -47,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 July 2021.
+   This Internet-Draft will expire on 26 July 2021.
 
 Copyright Notice
 
@@ -89,8 +91,10 @@ Table of Contents
 
    The Internet Architecture Board (IAB) held a workshop to discuss
    Network Impacts of the COVID-19 pandemic, on November 9-13, 2020.
-   The meeting was held online given the on-going travel and contact
-   restrictions at that time.
+   The workshop was held to convene interested researchers, network
+   operators, and network management experts, and Internet technologists
+   to share their experiences.  The meeting was held online given the
+   on-going travel and contact restrictions at that time.
 
    COVID-19 has caused changes in Internet traffic.  These changes
    appeared rather abruptly, in particular during the introduction of
@@ -157,9 +161,7 @@ Table of Contents
    networking.  Or even allow us to adjust the technology to be even
    better suited to respond to changes.
 
-   The workshop was held to convene interested researchers, network
-   operators, and network management experts, and Internet technologists
-   to share their experiences.  The scope included:
+   The scope included:
 
    *  measurements about traffic changes, user experience, service
       performance, and other relevant aspects
@@ -337,17 +339,17 @@ Table of Contents
    problems were corrected, many providers significantly increased their
    capacity, and so on.
 
-   In general, the Internet also seems inherently well suited for
-   adapting to a new situation, at least within some bounds.  The
-   Internet is designed for any application and situation, rather than
-   optimized for today's particular traffic.  This makes it possible to
-   use it for many applications, in many deployment situations, and make
-   changes as needed.  The generality is present in many parts of the
-   overall system, from basic Internet technology to browsers, from name
-   servers to content delivery networks and cloud platforms.  When needs
-   change, what is needed is often merely different services, perhaps
-   some re-allocation of resources, but not fundamental technology or
-   hardware changes.
+   In general, the Internet also seems well suited for adapting to new
+   situations, at least within some bounds.  The Internet is designed
+   for any application and situation, rather than optimized for today's
+   particular traffic.  This makes it possible to use it for many
+   applications, in many deployment situations, and make changes as
+   needed.  The generality is present in many parts of the overall
+   system, from basic Internet technology to browsers, from name servers
+   to content delivery networks and cloud platforms.  When needs change,
+   what is needed is often merely different services, perhaps some re-
+   allocation of resources, but not fundamental technology or hardware
+   changes.
 
    On the other hand, this is not to say that no improvements are
    needed:
@@ -553,9 +555,9 @@ Table of Contents
               October 2020.
 
    [Arkko2020]
-              Arkko, Jari, ., "Observations on Network User Behaviour
-              During COVID-19", Position paper in the 2020 IAB COVID-19
-              Network Impacts workshop. , October 2020.
+              Arkko, J., "Observations on Network User Behaviour During
+              COVID-19", Position paper in the 2020 IAB COVID-19 Network
+              Impacts workshop. , October 2020.
 
    [Bronzino2020]
               Bronzino, F, ., Culley, E, ., Feamster, N, ., S, Liu., J,
