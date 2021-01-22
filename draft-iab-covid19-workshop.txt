@@ -8,6 +8,8 @@ Intended status: Best Current Practice                        S. Farrell
 Expires: 26 July 2021                                                   
                                                             M. Kühlewind
                                                                 Ericsson
+                                                              C. Perkins
+                                                   University of Glasgow
                                                          22 January 2021
 
 
@@ -49,14 +51,14 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 July 2021.
-
 
 
 Arkko, et al.             Expires 26 July 2021                  [Page 1]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
+
+   This Internet-Draft will expire on 26 July 2021.
 
 Copyright Notice
 
@@ -103,8 +105,6 @@ Table of Contents
    operators, and network management experts, and Internet technologists
    to share their experiences.  The meeting was held online given the
    on-going travel and contact restrictions at that time.
-
-
 
 
 
@@ -810,10 +810,10 @@ Authors' Addresses
    Email: mirja.kuehlewind@ericsson.com
 
 
+   Colin Perkins
+   University of Glasgow
 
-
-
-
+   Email: csp@csperkins.org
 
 
 
