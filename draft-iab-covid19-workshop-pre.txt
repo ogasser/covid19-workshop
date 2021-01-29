@@ -74,10 +74,10 @@ Table of Contents
    3.  Discussion Topics
      3.1.  Measurement-based Observation on Network Traffic Dynamics
        3.1.1.  Overall traffic growth
-       3.1.2.  A deeper look at interconnections
-       3.1.3.  Cloud platforms
-       3.1.4.  Last mile congestion
-       3.1.5.  Home network performance
+       3.1.2.  Changes in application use
+       3.1.3.  A deeper look at interconnections
+       3.1.4.  Cloud platforms
+       3.1.5.  Last mile congestion
        3.1.6.  User behaviour
      3.2.  Operational Practises and Changes
        3.2.1.  Digital Divide
@@ -194,6 +194,15 @@ Table of Contents
    the situation, covering different angles and aspects of network
    traffic and kind of networks.
 
+   At a high level, the traffic in mobile networks decreased as a result
+   of reduced population mobility while traffic from home networks
+   increased.  As a result of the shift for working and learning at
+   home, there was a strong increase in video conferencing and remote
+   learning application traffic.  The typical diurnal usage patterns in
+   network traffic also changed, with peak times occuring earlier in the
+   day and peak times lasting longer over the day - reflecting the start
+   of the work or school day from home.
+
 3.1.1.  Overall traffic growth
 
    The global pandemic has significantly accelerated the growth of data
@@ -232,6 +241,8 @@ Table of Contents
    their home again, we see a decrease of the traffic at the IXPs and
    the ISP; instead mobile traffic is now growing again.
 
+3.1.2.  Changes in application use
+
    We see a strong increase in the traffic associated to web
    conferencing, video, and gaming traffic in March as a result of the
    increasing user deman for solutions like Zoom or Microsoft Teams.
@@ -239,8 +250,6 @@ Table of Contents
    or play games, thus increasing entertainment traffic demands.
    Interestingly, we also see a decrease in educational traffic in these
    vantage points.
-
-3.1.1.1.  Changes in application use
 
    The composition of data traffic has changed since the beginning of
    the pandemic: the use of videoconferencing services and virtual
@@ -260,16 +269,7 @@ Table of Contents
    increase in in-person social activities and a decrease in online
    ones.
 
-   At a high level, the traffic in mobile networks decreased as a result
-   of reduced population mobility while traffic from home networks
-   increased.  As a result of the shift for working and learning at
-   home, there was a strong increase in video conferencing and remote
-   learning application traffic.  The typical diurnal usage patterns in
-   network traffic also changed, with peak times occuring earlier in the
-   day and peak times lasting longer over the day - reflecting the start
-   of the work or school day from home.
-
-3.1.1.2.  Example campus networks
+3.1.2.1.  Example campus networks
 
    Changes in traffic have been observed at University campus networks
    as well, especially due to the necessary adoption of remote teaching.
@@ -311,6 +311,16 @@ Table of Contents
    based) resources requested during work are no longer accessed from
    the educational network but from the use
 
+3.1.2.2.  Example mobile networks
+
+   Mobile network data usage appeared to decline following the
+   imposition of localized lockdown measures, as these reduced typical
+   levels of mobility and roaming.
+
+   [more text TBD]
+
+3.1.2.3.  Summary
+
    To conclude, changes in Internet traffic due to the COVID-19 pandemic
    are affecting different networks in various ways.  Yet all networks
    observe some form of change, be it in a reduction in traffic, an
@@ -320,15 +330,7 @@ Table of Contents
    different from before COVID-19.  This behavior is antagonistic, yet
    complementary, to the one observed in residential ISPs.
 
-3.1.1.3.  Example mobile networks
-
-   Mobile network data usage appeared to decline following the
-   imposition of localized lockdown measures, as these reduced typical
-   levels of mobility and roaming.
-
-   [more text TBD]
-
-3.1.2.  A deeper look at interconnections
+3.1.3.  A deeper look at interconnections
 
    Traffic at points of network interconnection noticeably increased but
    most operators reacted quickly by rapidly adding additional capacity
@@ -345,7 +347,7 @@ Table of Contents
    which suggests that operators indeed did take steps to add capacity
    or otherwise mitigate the congestion.
 
-3.1.3.  Cloud platforms
+3.1.4.  Cloud platforms
 
    Cloud infrastructure played a key role in supporting bandwidth-
    intensive video conferencing and remote learning tools to practice
@@ -374,7 +376,7 @@ Table of Contents
       increased use of the cloud in the pandemic could be one of the
       factors that contributed to the decreased performance.
 
-3.1.4.  Last mile congestion
+3.1.5.  Last mile congestion
 
    Last-mile is the centerpiece of broadband connectivity, where poor
    last-mile performance generally translates to poor quality of
@@ -400,10 +402,6 @@ Table of Contents
    numerous research and operational reports recently published, the
    pandemic is apparently shaping a more resilient Internet, as
    Nietzsche wrote, "What does not kill me makes me stronger".
-
-3.1.5.  Home network performance
-
-   TBD...
 
 3.1.6.  User behaviour
 
