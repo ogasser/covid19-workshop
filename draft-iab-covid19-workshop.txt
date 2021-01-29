@@ -82,28 +82,28 @@ Table of Contents
      3.1.  Measurement-based Observation on Network Traffic
            Dynamics  . . . . . . . . . . . . . . . . . . . . . . . .   5
        3.1.1.  Overall traffic growth  . . . . . . . . . . . . . . .   5
-       3.1.2.  Changes in traffic patterns . . . . . . . . . . . . .   5
-       3.1.3.  A deeper look at interconnections . . . . . . . . . .   6
-       3.1.4.  Cloud platforms . . . . . . . . . . . . . . . . . . .   6
-       3.1.5.  Last mile congestion  . . . . . . . . . . . . . . . .   7
-       3.1.6.  Home network performance  . . . . . . . . . . . . . .   7
-       3.1.7.  User behaviour  . . . . . . . . . . . . . . . . . . .   7
-     3.2.  Operational Practises and Changes . . . . . . . . . . . .   8
-       3.2.1.  Digital Divide  . . . . . . . . . . . . . . . . . . .   8
-       3.2.2.  Applications  . . . . . . . . . . . . . . . . . . . .   9
-       3.2.3.  Observability . . . . . . . . . . . . . . . . . . . .   9
+       3.1.2.  A deeper look at interconnections . . . . . . . . . .   8
+       3.1.3.  Cloud platforms . . . . . . . . . . . . . . . . . . .   8
+       3.1.4.  Last mile congestion  . . . . . . . . . . . . . . . .   9
+       3.1.5.  Home network performance  . . . . . . . . . . . . . .   9
+       3.1.6.  User behaviour  . . . . . . . . . . . . . . . . . . .   9
+     3.2.  Operational Practises and Changes . . . . . . . . . . . .  10
+       3.2.1.  Digital Divide  . . . . . . . . . . . . . . . . . . .  10
+       3.2.2.  Applications  . . . . . . . . . . . . . . . . . . . .  11
+       3.2.3.  Observability . . . . . . . . . . . . . . . . . . . .  11
      3.3.  Architectural Considerations and Conclusions for the
-           Future  . . . . . . . . . . . . . . . . . . . . . . . . .  10
-       3.3.1.  DSCP point and counterpoint . . . . . . . . . . . . .  10
-       3.3.2.  Security  . . . . . . . . . . . . . . . . . . . . . .  10
-     3.4.  Feedback on meeting format  . . . . . . . . . . . . . . .  10
-     3.5.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  11
-   4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .  12
-   5.  Workshop participants . . . . . . . . . . . . . . . . . . . .  13
-   6.  Program Committee . . . . . . . . . . . . . . . . . . . . . .  15
-   7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  15
-   8.  Informative References  . . . . . . . . . . . . . . . . . . .  16
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  18
+           Future  . . . . . . . . . . . . . . . . . . . . . . . . .  11
+       3.3.1.  DSCP point and counterpoint . . . . . . . . . . . . .  12
+       3.3.2.  Security  . . . . . . . . . . . . . . . . . . . . . .  12
+     3.4.  Feedback on meeting format  . . . . . . . . . . . . . . .  12
+     3.5.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  13
+   4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .  14
+   5.  Workshop participants . . . . . . . . . . . . . . . . . . . .  15
+   6.  Program Committee . . . . . . . . . . . . . . . . . . . . . .  17
+   7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  17
+   8.  Informative References  . . . . . . . . . . . . . . . . . . .  17
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  20
+
 
 
 
@@ -236,18 +236,79 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 3.1.1.  Overall traffic growth
 
-   Based on the measurement data of one ISP, three IXPs, a metropolitan
-   educational network, and a mobile operator it was observed at the
-   beginning of the workshop that overall the network was able to handle
-   the situation well despite a significant and sudden increase in
-   traffic growth rate in March/April.  In many regions the traffic
-   growth expected in a typical year took place in the matter of a few
-   weeks.  In access networks, the growth rate of upstream traffic also
-   exceeded the growth in downstream traffic, reflecting increased
-   adoption and use of video conferencing and other remote work and
-   school applications.
+   The global pandemic has significantly accelerated the growth of data
+   traffic worldwide.  Based on the measurement data of one ISP, three
+   IXPs, a metropolitan educational network, and a mobile operator it
+   was observed at the beginning of the workshop [Feldmann2020] that
+   overall the network was able to handle the situation well despite a
+   significant and sudden increase in traffic growth rate in March/
+   April.  That is, after the lockdown is implemented in March a traffic
+   increase of 15-20% at the ISP as well as the three IXPs was observed.
+   That represents the traffic growth expected in a typical year which
+   now took place in the matter of a few weeks only---a substantial
+   increase.  At DE-CIX Frankfurt, the world's largest Internet Exchange
+   in terms of data throughput, the year 2020 has seen the largest
+   increase in peak traffic within a single year since the IXP was
+   founded in 1995.  Additionally, mobile traffic is slightly receding.
+   In access networks, the growth rate of upstream traffic also exceeded
+   the growth in downstream traffic, reflecting increased adoption and
+   use of video conferencing and other remote work and school
+   applications.
 
-3.1.2.  Changes in traffic patterns
+   Most traffic increases happen during non-traditional peak hours:
+   Before Corona, the main time of use was in the evening hours during
+   the week, whereas since March it has been spread equally across the
+   day.  That is, the increase in usage is mainly occurring outside the
+   previous peak usage times (e.g. during the day while working from
+   home).  This means that, for the first time, network utilization on
+   weekdays resembles that on weekends.  The effects of the increased
+   traffic volume can easily be absorbed: either by using existing
+   reserve capacity, or by quickly switching additional bandwidth.  This
+   is one reason why the Internet was able to cope well with the
+   pandemic during the first lockdown period.
+
+   Some of the lockdowns were lifted or relaxed around May 2020.  As
+   people were allowed to perform some of their daily habits outside of
+   their home again, we see a decrease of the traffic at the IXPs and
+   the ISP; instead mobile traffic is now growing again.
+
+
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                 [Page 5]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
+   We see a strong increase in the traffic associated to web
+   conferencing, video, and gaming traffic in March as a result of the
+   increasing user deman for solutions like Zoom or Microsoft Teams.
+   Also, as people spend more hours at home, they tend to watch videos
+   or play games, thus increasing entertainment traffic demands.
+   Interestingly, we also see a decrease in educational traffic in these
+   vantage points.
+
+3.1.1.1.  Changes in application use
+
+   The composition of data traffic has changed since the beginning of
+   the pandemic: the use of videoconferencing services and virtual
+   private networks (VPNs) for access to company resources from the home
+   environment has risen sharply.  In ISP and IXP network it was
+   overserved [Feldmann2020] that traffic associated to web
+   conferencing, video, and gaming increased largely in March.  For
+   example, the relative traffic share of many "essential" applications
+   like VPN and conferencing tools increased by more than 200%. At the
+   same time, the traffic share for other traffic classes decreases
+   substantially, e.g., traffic related to education, social media, and
+   ---for some periods---CDNs.  In April and June, web conferencing
+   traffic is still high compared to the pre-pandemic scenario, while a
+   slight decrease in CDN and social media traffic is observed.  During
+   these months many people are still working from home, but
+   restrictions have been lifted or relaxed, which likely leads to an
+   increase in in-person social activities and a decrease in online
+   ones.
 
    At a high level, the traffic in mobile networks decreased as a result
    of reduced population mobility while traffic from home networks
@@ -258,7 +319,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    day and peak times lasting longer over the day - reflecting the start
    of the work or school day from home.
 
-3.1.2.1.  Example campus network
+3.1.1.2.  Example campus networks
 
    Changes in traffic have been observed at University campus networks
    as well, especially due to the necessary adoption of remote teaching.
@@ -269,20 +330,55 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    cessation of any in-presence activity.  Based on their measurements,
    this change in traffic and network usage did however not lead to
    noticeable performance impairments, nor significantly poor
+
+
+
+Arkko, et al.             Expires 2 August 2021                 [Page 6]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    performance have been observed for students in remote regions of
    Italy.  Further, outgoing traffic increased as well due to remote
    working solutions such as collaboration platforms, VPNs and remote
    desktop.
 
+   Similar changes were observed by measuring REDIMadrid [Feldmann2020],
+   a European educational and research network, which connects 16
+   independent universities and research centers in the metropolitan
+   region of Madrid.  A drop of up to 55% in traffic volume on working
+   days during the pandemic was observed.  Similar to findings for ISP/
+   IXP networks, it was observed that working days and weekend days are
+   becoming more similar in terms of total traffic.  The hourly traffic
+   patterns reveal a traffic increase between 9 pm and 7 am.  This could
+   be due to users working more frequently at unusual times, but also
+   potentially caused by overseas students (mainly from Latin America
+   and East Asia as suggested by the AS numbers from which these
+   connections come from) who access university network resources from
+   their home countries.
 
+   Given the fact that the users of the academic network (e.g., students
+   and research staff) had to leave the campus as a response to lockdown
+   measures, also the traffic in/out (i.e., ingress/egress) ratio
+   changed drastically.  Prior to the lockdown, the incoming traffic was
+   much larger then the outgoing traffic.  This changed to a more
+   balanced setting.  This change of traffic asymmetry can be explained
+   by the nature of remote work.  On the one end, users connect to the
+   network services mainly to access resources, hence the increase in
+   outgoing traffic.  On the other end, all external (\ie Internet-
+   based) resources requested during work are no longer accessed from
+   the educational network but from the use
 
+   To conclude, changes in Internet traffic due to the COVID-19 pandemic
+   are affecting different networks in various ways.  Yet all networks
+   observe some form of change, be it in a reduction in traffic, an
+   increase in traffic, a change in working days and weekend days
+   patterns, or a change in traffic classes.  Traffic volume,
+   directionality ratios, and its source and destination are radically
+   different from before COVID-19.  This behavior is antagonistic, yet
+   complementary, to the one observed in residential ISPs.
 
-Arkko, et al.             Expires 2 August 2021                 [Page 5]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
-3.1.2.2.  Example mobile networks
+3.1.1.3.  Example mobile networks
 
    Mobile network data usage appeared to decline following the
    imposition of localized lockdown measures, as these reduced typical
@@ -290,13 +386,24 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    [more text TBD]
 
-3.1.3.  A deeper look at interconnections
+
+
+
+Arkko, et al.             Expires 2 August 2021                 [Page 7]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
+3.1.2.  A deeper look at interconnections
 
    Traffic at points of network interconnection noticeably increased but
-   most operators reacted quickly by rapidly adding additional capacity.
-   The amount of increases varied, with some networks that hosted
-   popular applications such as video conferencing experiencing traffic
-   growth of several hundred to several thousand percent.
+   most operators reacted quickly by rapidly adding additional capacity
+   [Feldmann2020].  The amount of increases varied, with some networks
+   that hosted popular applications such as video conferencing
+   experiencing traffic growth of several hundred to several thousand
+   percent.  At the IXP-level, it was observe that port utilization
+   increases.  This phenomenon is mostly explained by a higher traffic
+   demand fromresidential users.
 
    Measurements of interconnection links at major US ISPs by CAIDA and
    MIT found some evidence of diurnal congestion around the March 2020
@@ -304,7 +411,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    which suggests that operators indeed did take steps to add capacity
    or otherwise mitigate the congestion.
 
-3.1.4.  Cloud platforms
+3.1.3.  Cloud platforms
 
    Cloud infrastructure played a key role in supporting bandwidth-
    intensive video conferencing and remote learning tools to practice
@@ -327,24 +434,23 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
       could suffer from poor video streaming or file download
       performance from the cloud.
 
-
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                 [Page 6]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    *  The macroscopic analysis over 3 months (June-August, 2020)
       revealed downward trends in download throughput from ISPs and
       educational networks to certain cloud regions.  We believed that
       increased use of the cloud in the pandemic could be one of the
       factors that contributed to the decreased performance.
 
-3.1.5.  Last mile congestion
+
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                 [Page 8]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
+3.1.4.  Last mile congestion
 
    Last-mile is the centerpiece of broadband connectivity, where poor
    last-mile performance generally translates to poor quality of
@@ -371,11 +477,11 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    pandemic is apparently shaping a more resilient Internet, as
    Nietzsche wrote, "What does not kill me makes me stronger".
 
-3.1.6.  Home network performance
+3.1.5.  Home network performance
 
    TBD...
 
-3.1.7.  User behaviour
+3.1.6.  User behaviour
 
    The type of traffic needed by the users also changed in 2020.
    Upstream traffic increased due the use of video conferences, remote
@@ -384,19 +490,21 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    as 30% to 37% [NCTA2020] [Comcast2020].  Vodafone reported that
    upstream traffic grew 100% in some markets [Vodafone2020].
 
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                 [Page 7]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    Ericsson's Consumer Lab surveyed users for their usage and
    experiences during the crisis).  Some of the key findings in
    [ConsumerlabReport2020] were:
+
+
+
+
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                 [Page 9]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    *  9 in 10 users increased Internet activities, and time spent
       connected increased.  In addition, 1 in 5 started new online
@@ -440,22 +548,20 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    governments might usefully coordinate with operators to allow time
    for pre-emptive operational changes, in some cases.
 
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                 [Page 8]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    Measurements from the US showed that download rates correlate with
    income levels.  However, download rates in the lowest income zip
    codes increased as the pandemic progressed, closing the divide with
    higher income areas.  One possible reason for this in the data is
    decisions by some ISPs, such as Comcast and Cox, that increased
    speeds for users on certain plans and in certain areas.  This
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 10]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    suggests that network capacity was available, and that the
    correlation between income and download rates was not necessarily due
    to differences in the deployed infrastructure in different regions,
@@ -497,21 +603,20 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    the impact on certain applications, and there is an observability
    gap.
 
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                 [Page 9]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
 3.3.  Architectural Considerations and Conclusions for the Future
 
    The final session of the workshop considered the architectural issues
    arising and other conclusions that could be reached.  In general many
    of these topics had been covered earlier so the report-out from this
    session is more brief.
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 11]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
 3.3.1.  DSCP point and counterpoint
 
@@ -552,16 +657,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
 
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 10]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    Feedback on this event format was largely positive, however.  It was
    particularly useful that as the three sessions were scheduled Monday,
    Wednesday, and Friday, the time in between could be used for mailing
@@ -569,6 +664,15 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    positive feedback was likely at least partly due to the fact that
    many of the workshop participants knew one another from previous
    face-to-face events (primaily IETF meetings).
+
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 12]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    The process for sending invitations to the workshop should be
    improved for next time, however, as a few invitations were initially
@@ -610,14 +714,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    On the other hand, this is not to say that no improvements are
    needed:
 
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 11]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    *  Better understanding of the health of the Internet: Going forward,
       the critical nature that Internet plays in our lives means that
       the health of the Internet needs to receive significant attention.
@@ -626,6 +722,13 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
       of the societies using it.  Projects and research that monitor
       Internet and services performance in a broad scale and across
       different networks are therefore important.
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 13]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    *  The pandemic has shown how the effects of the digital divide can
       be amplified during a crisis.  More attention is needed to ensure
@@ -664,16 +767,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    *  Clark, D.: Measurement of congestion on ISP interconnection links
       [Clark2020]
 
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 12]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    *  Favale, T., Soro, F., Trevisan, M., Drago, I., and Mellia, M.:
       Campus traffic and e-Learning during COVID-19 pandemic
       [Favale2020]
@@ -683,6 +776,15 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
       Rodriguez, N., Hohlfeld, O., and Smaragdakis, G.: A view of
       Internet Traffic Shifts at ISP and IXPs during the COVID-19
       Pandemic [Feldmann2020]
+
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 14]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    *  Fontugne, R., Shah, A., and Cho, K.: The Impact of COVID-19 on
       Last-mile Latency [Fontugne2020]
@@ -722,14 +824,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  David Clark (MIT CSAIL)
 
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 13]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    *  Chris Dietzel (DE-CIX)
 
    *  Idilio Drago (University of Turin)
@@ -739,6 +833,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    *  Nick Feamster (University of Chicago)
 
    *  Anja Feldmann (Max Planck Institute for Informatics)
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 15]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    *  Romain Fontugne (IIJ Research Lab)
 
@@ -778,14 +880,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
    *  Deep Medhi (NSF)
 
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 14]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    *  Marco Mellia (Politecnico di Torino)
 
    *  Ricky Mok (CAIDA)
@@ -795,6 +889,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    *  Kirsty P (NCSC)
 
    *  Diego Perino (Telefonica Research)
+
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 16]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    *  Colin Perkins (University of Glasgow/IRTF/IAB)
 
@@ -831,28 +933,27 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    architecture discussion list for interesting discussions, and Cindy
    Morgan for the practical arrangements.
 
-
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 15]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    Further special thanks to those participants who also contributed to
    this report: Romain Fontugne provided text based on his blog post at
    https://eng-blog.iij.ad.jp/archives/7722; Ricky Mok for text on cloud
    platform; Martino Trevisan for text on campus networks; David Clark
-   on congestion measurements at interconnects.
+   on congestion measurements at interconnects; Oliver Hohlfeld for the
+   text on traffic growth, changes in traffic shifts, campus networks,
+   and interconnections.
 
 8.  Informative References
 
    [Afxanasyev2020]
               Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and L.
               Zhang, "Identifying the Disease from the Symptoms: Lessons
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 17]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
               for Networking in the COVID-19 Era", Position paper in the
               2020 IAB COVID-19 Network Impacts workshop. , October
               2020.
@@ -889,15 +990,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               https://corporate.comcast.com/covid-19/network/may-20-2020
               , May 2020.
 
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 16]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    [ConsumerlabReport2020]
               Ericsson Consumer & IndustryLab, ., "Keeping consumers
               connected in a COVID-19 context",
@@ -910,6 +1002,13 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               Mellia, "Campus traffic and e-Learning during COVID-19
               pandemic", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 18]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
 
    [Feldmann2020]
               Feldmann, A., Gasser, O., Lichtblau, F., Pujol, E., Poese,
@@ -945,15 +1044,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
               Covid", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
 
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 17]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    [Kirsty2020]
               Kirsty P, ., "IAB COVID-19 Network Impacts", Position
               paper in the 2020 IAB COVID-19 Network Impacts workshop. ,
@@ -968,6 +1058,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    [McKinsey2020]
               Boland, B., De Smet, A., Palter, R., and A. Sanghvi,
               "Reimagining the office and work life after COVID-19", htt
+
+
+
+Arkko, et al.             Expires 2 August 2021                [Page 19]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
               ps://www.mckinsey.com/~/media/McKinsey/Business%20Function
               s/Organization/Our%20Insights/Reimagining%20the%20office%2
               0and%20work%20life%20after%20COVID%2019/Reimagining-the-
@@ -1002,14 +1100,6 @@ Authors' Addresses
    Stephen Farrell
    Trinity College Dublin
 
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 18]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    Email: stephen.farrell@cs.tcd.ie
 
 
@@ -1027,38 +1117,4 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Arkko, et al.             Expires 2 August 2021                [Page 19]
+Arkko, et al.             Expires 2 August 2021                [Page 20]
