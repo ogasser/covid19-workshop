@@ -95,8 +95,7 @@ Table of Contents
      3.3.  Architectural Consideration and Conclusion for Future . .   9
        3.3.1.  DSCP point and counterpoint . . . . . . . . . . . . .   9
        3.3.2.  Security  . . . . . . . . . . . . . . . . . . . . . .  10
-       3.3.3.  Discussion  . . . . . . . . . . . . . . . . . . . . .  10
-       3.3.4.  Feedback on meeting format  . . . . . . . . . . . . .  10
+       3.3.3.  Feedback on meeting format  . . . . . . . . . . . . .  10
      3.4.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  11
    4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .  12
    5.  Workshop participants . . . . . . . . . . . . . . . . . . . .  13
@@ -104,6 +103,7 @@ Table of Contents
    7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  15
    8.  Informative References  . . . . . . . . . . . . . . . . . . .  15
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  18
+
 
 
 
@@ -531,13 +531,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    before the pandemic nor that it is good during the pandemic - it
    seems rather the opposite.
 
-3.3.3.  Discussion
-
-   Incentive and control (Jana)...
-
-   TBD...
-
-3.3.4.  Feedback on meeting format
+3.3.3.  Feedback on meeting format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
@@ -554,6 +548,12 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    least for this workshop, we did not appear to suffer from too many
    participants, and in many cases there may be some days when a
    particular participant may not be able to attend a session.
+
+
+
+
+
+
 
 
 

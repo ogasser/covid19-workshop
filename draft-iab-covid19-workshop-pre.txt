@@ -87,8 +87,7 @@ Table of Contents
      3.3.  Architectural Consideration and Conclusion for Future
        3.3.1.  DSCP point and counterpoint
        3.3.2.  Security
-       3.3.3.  Discussion
-       3.3.4.  Feedback on meeting format
+       3.3.3.  Feedback on meeting format
      3.4.  Conclusions
    4.  Position Papers
    5.  Workshop participants
@@ -450,13 +449,7 @@ Table of Contents
    before the pandemic nor that it is good during the pandemic - it
    seems rather the opposite.
 
-3.3.3.  Discussion
-
-   Incentive and control (Jana)...
-
-   TBD...
-
-3.3.4.  Feedback on meeting format
+3.3.3.  Feedback on meeting format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
