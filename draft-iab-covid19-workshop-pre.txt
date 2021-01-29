@@ -87,8 +87,8 @@ Table of Contents
      3.3.  Architectural Considerations and Conclusions for the Future
        3.3.1.  DSCP point and counterpoint
        3.3.2.  Security
-       3.3.3.  Feedback on meeting format
-     3.4.  Conclusions
+     3.4.  Feedback on meeting format
+     3.5.  Conclusions
    4.  Position Papers
    5.  Workshop participants
    6.  Program Committee
@@ -460,7 +460,7 @@ Table of Contents
    before the pandemic nor that it is good during the pandemic - it
    seems rather the opposite.
 
-3.3.3.  Feedback on meeting format
+3.4.  Feedback on meeting format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
@@ -481,7 +481,7 @@ Table of Contents
    participants, and in many cases there may be some days when a
    particular participant may not be able to attend a session.
 
-3.4.  Conclusions
+3.5.  Conclusions
 
    There is a wealth of data about the performance of the Internet
    during the crisis.  The main conclusion from the various measurements
