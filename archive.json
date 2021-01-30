@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-01-29T13:47:26.642819+00:00",
+  "timestamp": "2021-01-30T10:02:56.535982+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -219,24 +219,26 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTYxMjAyNjA5",
       "title": "Draft text discussing traffic changes due to COVID-19",
       "url": "https://github.com/intarchboard/covid19-workshop/pull/6",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "ohohlfeld",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-01-25T16:30:38Z",
-      "updatedAt": "2021-01-25T16:43:03Z",
+      "updatedAt": "2021-01-29T20:16:17Z",
       "baseRepository": "intarchboard/covid19-workshop",
       "baseRefName": "master",
-      "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
+      "baseRefOid": "41a99eb08280c57e20d72864c05a7869bc34e88a",
       "headRepository": "ohohlfeld/covid19-workshop",
       "headRefName": "master",
-      "headRefOid": "a40490855fc5bbbe039291e26dcea21a3f38b47c",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "19e4d18b4a7bb0025d43115ad21273338564ed9d",
+      "closedAt": "2021-01-29T20:16:17Z",
+      "mergedAt": "2021-01-29T20:16:17Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "a35d1096d1639fb418610f9c216797d979c77355"
+      },
       "comments": [],
       "reviews": [
         {
@@ -255,17 +257,95 @@
               "originalPosition": 44,
               "body": "Was it on purpose to now have this as a subsection?",
               "createdAt": "2021-01-25T16:41:05Z",
-              "updatedAt": "2021-01-25T16:43:03Z"
+              "updatedAt": "2021-01-29T20:16:07Z"
             },
             {
               "originalPosition": 73,
               "body": "Shouldn't such a conclusion paragraph come after the mobile networks subsection?",
               "createdAt": "2021-01-25T16:42:24Z",
-              "updatedAt": "2021-01-25T16:43:03Z"
+              "updatedAt": "2021-01-29T20:16:07Z"
             }
           ]
         }
       ]
+    },
+    {
+      "number": 7,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MjY4MTQ4",
+      "title": "Text from Andra Lutu",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/7",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Need to exchange \"we\" with a reference to their paper + add Andra to acknowledgement before merging",
+      "createdAt": "2021-01-29T21:33:28Z",
+      "updatedAt": "2021-01-29T21:33:28Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "intarchboard/covid19-workshop",
+      "headRefName": "mirjak-patch-3",
+      "headRefOid": "92c8d37ea6cab318bc065ab97d3950c4bfffe247",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MjkxNTgw",
+      "title": "minor revision",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/8",
+      "state": "CLOSED",
+      "author": "ohohlfeld",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-29T22:32:42Z",
+      "updatedAt": "2021-01-29T22:33:31Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "ohohlfeld/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "3e6741adc09489aadf98d59fd35f9dd505911df6",
+      "closedAt": "2021-01-29T22:33:31Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MzAxNTYw",
+      "title": "minor revision",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/9",
+      "state": "OPEN",
+      "author": "ohohlfeld",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-29T23:04:07Z",
+      "updatedAt": "2021-01-29T23:04:07Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "ohohlfeld/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "beef97995e08173e2ecd44615750d39007e0db85",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
