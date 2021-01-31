@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-01-31T00:22:16.457241+00:00",
+  "timestamp": "2021-01-31T16:35:42.321064+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -326,24 +326,26 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTY0MzAxNTYw",
       "title": "minor revision",
       "url": "https://github.com/intarchboard/covid19-workshop/pull/9",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "ohohlfeld",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-01-29T23:04:07Z",
-      "updatedAt": "2021-01-29T23:04:07Z",
+      "updatedAt": "2021-01-31T16:34:58Z",
       "baseRepository": "intarchboard/covid19-workshop",
       "baseRefName": "master",
       "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
       "headRepository": "ohohlfeld/covid19-workshop",
       "headRefName": "master",
       "headRefOid": "beef97995e08173e2ecd44615750d39007e0db85",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-01-31T16:34:58Z",
+      "mergedAt": "2021-01-31T16:34:58Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "fbc36ae9161dbc04dbbc7f285d4c04c38d5a26ca"
+      },
       "comments": [],
       "reviews": []
     }
