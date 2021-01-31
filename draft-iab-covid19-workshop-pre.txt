@@ -5,12 +5,12 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 3 August 2021                            Trinity College Dublin
+Expires: 4 August 2021                            Trinity College Dublin
                                                             M. Kühlewind
                                                                 Ericsson
                                                               C. Perkins
                                                    University of Glasgow
-                                                         30 January 2021
+                                                         31 January 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 August 2021.
+   This Internet-Draft will expire on 4 August 2021.
 
 Copyright Notice
 
@@ -124,11 +124,11 @@ Table of Contents
    calls were 45 participants, listed in Section 5.
 
    The workshop was held over one week hosting three sessions covering
-   measurements and observations, operational issue, and final future
-   consideration and conclusions.  As these three sessions were
-   scheduled Monday, Wednesday, and Friday a positive side effect was
-   that the time in between could be used for mailing list discussion
-   and compilation of additional workshop material.
+   i) measurements and observations, ii) operational issue, and iii)
+   final future consideration and conclusions.  As these three sessions
+   were scheduled Monday, Wednesday, and Friday a positive side effect
+   was that the time in between could be used for mailing list
+   discussion and compilation of additional workshop material.
 
 2.  Scope
 
@@ -136,10 +136,10 @@ Table of Contents
    and the societies and economies around the globe.  But it also had
    big impact on networking.  With large numbers of people working from
    home or otherwise depending on the network for their daily lives,
-   network traffic has surged.  Internet service providers and operators
-   have reported 20% traffic growth or more in a matter of weeks.
-   Traffic in Internet Exchange Points (IXPs) is similarly on the rise.
-   Most forms of network traffic have seen an increase, with
+   network traffic volume has surged.  Internet service providers and
+   operators have reported a 20% traffic growth or more in a matter of
+   weeks.  Traffic in Internet Exchange Points (IXPs) is similarly on
+   the rise.  Most forms of network traffic have seen an increase, with
    conversational multimedia traffic growing in some cases more than
    200%. And user time spent on conferencing services has risen by an
    order of magnitude on some conferencing platforms.
@@ -169,7 +169,7 @@ Table of Contents
    networking.  Or even allow us to adjust the technology to be even
    better suited to respond to changes.
 
-   The scope included:
+   The scope of this workshop included:
 
    *  measurements about traffic changes, user experience, service
       performance, and other relevant aspects
@@ -225,16 +225,16 @@ Table of Contents
    applications.
 
    Most traffic increases happen during non-traditional peak hours:
-   Before Corona, the main time of use was in the evening hours during
-   the week, whereas since March it has been spread equally across the
-   day.  That is, the increase in usage is mainly occurring outside the
-   previous peak usage times (e.g. during the day while working from
-   home).  This means that, for the first time, network utilization on
-   weekdays resembles that on weekends.  The effects of the increased
-   traffic volume can easily be absorbed: either by using existing
-   reserve capacity, or by quickly switching additional bandwidth.  This
-   is one reason why the Internet was able to cope well with the
-   pandemic during the first lockdown period.
+   Before the first COVID-19 lockdowns, the main time of use was in the
+   evening hours during the week, whereas since March it has been spread
+   equally across the day.  That is, the increase in usage is mainly
+   occurring outside the previous peak usage times (e.g. during the day
+   while working from home).  This means that, for the first time,
+   network utilization on weekdays resembles that on weekends.  The
+   effects of the increased traffic volume can easily be absorbed:
+   either by using existing reserve capacity, or by quickly switching
+   additional bandwidth.  This is one reason why the Internet was able
+   to cope well with the pandemic during the first lockdown period.
 
    Some of the lockdowns were lifted or relaxed around May 2020.  As
    people were allowed to perform some of their daily habits outside of
@@ -244,8 +244,8 @@ Table of Contents
 3.1.2.  Changes in application use
 
    We see a strong increase in the traffic associated to web
-   conferencing, video, and gaming traffic in March as a result of the
-   increasing user deman for solutions like Zoom or Microsoft Teams.
+   conferencing, video, and gaming traffic in March 2020 as a result of
+   the increasing user deman for solutions like Zoom or Microsoft Teams.
    Also, as people spend more hours at home, they tend to watch videos
    or play games, thus increasing entertainment traffic demands.
    Interestingly, we also see a decrease in educational traffic in these
@@ -256,7 +256,7 @@ Table of Contents
    private networks (VPNs) for access to company resources from the home
    environment has risen sharply.  In ISP and IXP network it was
    overserved [Feldmann2020] that traffic associated to web
-   conferencing, video, and gaming increased largely in March.  For
+   conferencing, video, and gaming increased largely in March 2020.  For
    example, the relative traffic share of many "essential" applications
    like VPN and conferencing tools increased by more than 200%. At the
    same time, the traffic share for other traffic classes decreases
@@ -307,7 +307,7 @@ Table of Contents
    balanced setting.  This change of traffic asymmetry can be explained
    by the nature of remote work.  On the one end, users connect to the
    network services mainly to access resources, hence the increase in
-   outgoing traffic.  On the other end, all external (\ie Internet-
+   outgoing traffic.  On the other end, all external (i.e., Internet-
    based) resources requested during work are no longer accessed from
    the educational network but from the use
 
@@ -321,8 +321,8 @@ Table of Contents
 
 3.1.2.3.  Summary
 
-   To conclude, changes in Internet traffic due to the COVID-19 pandemic
-   are affecting different networks in various ways.  Yet all networks
+   Changes in Internet traffic due to the COVID-19 pandemic are
+   affecting different networks in various ways.  Yet all networks
    observe some form of change, be it in a reduction in traffic, an
    increase in traffic, a change in working days and weekend days
    patterns, or a change in traffic classes.  Traffic volume,
@@ -339,7 +339,7 @@ Table of Contents
    experiencing traffic growth of several hundred to several thousand
    percent.  At the IXP-level, it was observe that port utilization
    increases.  This phenomenon is mostly explained by a higher traffic
-   demand fromresidential users.
+   demand from residential users.
 
    Measurements of interconnection links at major US ISPs by CAIDA and
    MIT found some evidence of diurnal congestion around the March 2020
@@ -554,7 +554,7 @@ Table of Contents
    merely about changing one application for another, they actually
    impacted traffic flows and directions, and caused in many cases a
    significant traffic increase.  Early reports also seem to indicate
-   that the shifts have gone relatively gone from the point of view
+   that the shifts have gone relatively smooth from the point of view
    overall consumer experience.
 
    An important but not so visible factor that led to this was that many
