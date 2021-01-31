@@ -301,42 +301,26 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
 3.1.2.  Changes in application use
 
-   We see a strong increase in the traffic associated to web
-   conferencing, video, and gaming traffic in March 2020 as a result of
-   the increasing user deman for solutions like Zoom or Microsoft Teams.
-   Also, as people spend more hours at home, they tend to watch videos
-   or play games, thus increasing entertainment traffic demands.
-   Interestingly, we also see a decrease in educational traffic in these
-   vantage points.
-
    The composition of data traffic has changed since the beginning of
    the pandemic: the use of videoconferencing services and virtual
    private networks (VPNs) for access to company resources from the home
    environment has risen sharply.  In ISP and IXP network it was
    overserved [Feldmann2020] that traffic associated to web
-   conferencing, video, and gaming increased largely in March 2020.  For
-   example, the relative traffic share of many "essential" applications
-   like VPN and conferencing tools increased by more than 200%. At the
-   same time, the traffic share for other traffic classes decreases
-   substantially, e.g., traffic related to education, social media, and
-   ---for some periods---CDNs.  In April and June, web conferencing
-   traffic is still high compared to the pre-pandemic scenario, while a
-   slight decrease in CDN and social media traffic is observed.  During
-   these months many people are still working from home, but
-   restrictions have been lifted or relaxed, which likely leads to an
-   increase in in-person social activities and a decrease in online
-   ones.
-
-
-
-
-
-
-
-Arkko, et al.             Expires 4 August 2021                 [Page 6]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
+   conferencing, video, and gaming increased largely in March 2020 as a
+   result of the increasing user deman for solutions like Zoom or
+   Microsoft Teams could be observed.  For example, the relative traffic
+   share of many "essential" applications like VPN and conferencing
+   tools increased by more than 200%.  Also, as people spend more hours
+   at home, they tend to watch videos or play games, thus increasing
+   entertainment traffic demands.  At the same time, the traffic share
+   for other traffic classes decreases substantially, e.g., traffic
+   related to education, social media, and---for some periods---CDNs.
+   In April and June, web conferencing traffic is still high compared to
+   the pre-pandemic scenario, while a slight decrease in CDN and social
+   media traffic is observed.  During these months many people are still
+   working from home, but restrictions have been lifted or relaxed,
+   which likely leads to an increase in in-person social activities and
+   a decrease in online ones.
 
 3.1.2.1.  Example campus networks
 
@@ -346,6 +330,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    solution for remote teaching, which caused the outgoing traffic to
    grow by 2.5 times, driven by more than 600 daily online classes.
    Incoming traffic, instead, decreased by a factor of 10 due to the
+
+
+
+Arkko, et al.             Expires 4 August 2021                 [Page 6]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    cessation of any in-presence activity.  Based on their measurements,
    this change in traffic and network usage did however not lead to
    noticeable performance impairments, nor significantly poor
@@ -386,14 +378,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    imposition of localized lockdown measures, as these reduced typical
    levels of mobility and roaming.
 
-
-
-
-Arkko, et al.             Expires 4 August 2021                 [Page 7]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
-
-
    [Lutu2020] measured the cellular network of O2 UK to evaluate how the
    changes in people's mobility impacted traffic patterns.  By analyzing
    cellular network signalling information regarding users' device
@@ -402,6 +386,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    lockdown period.  As they founnd no correlation between this
    reduction in mobility and the number of confirmed COVID-19 cases,
    only the enforced government order was effective in significantly
+
+
+
+Arkko, et al.             Expires 4 August 2021                 [Page 7]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
+
+
    reducing mobility and this reduction was more significant in densely
    populated urban areas than in rural areas.  For London, specifically,
    it could be observed from the mobile network data that approximately
@@ -442,6 +434,14 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
    increase in traffic, a change in working days and weekend days
    patterns, or a change in traffic classes.  Traffic volume,
    directionality ratios, and its source and destination are radically
+   different from before COVID-19.  This behavior is antagonistic, yet
+   complementary, to the one observed in residential ISPs.
+
+
+
+
+
+
 
 
 
@@ -449,9 +449,6 @@ Arkko, et al.             Expires 4 August 2021                 [Page 8]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
 
-
-   different from before COVID-19.  This behavior is antagonistic, yet
-   complementary, to the one observed in residential ISPs.
 
 3.1.3.  A deeper look at interconnections
 
@@ -498,6 +495,9 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20    January 2021
       educational networks to certain cloud regions.  We believed that
       increased use of the cloud in the pandemic could be one of the
       factors that contributed to the decreased performance.
+
+
+
 
 
 
