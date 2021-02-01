@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-01-31T16:35:42.321064+00:00",
+  "timestamp": "2021-02-01T14:00:17.333468+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -274,24 +274,26 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTY0MjY4MTQ4",
       "title": "Text from Andra Lutu",
       "url": "https://github.com/intarchboard/covid19-workshop/pull/7",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "Need to exchange \"we\" with a reference to their paper + add Andra to acknowledgement before merging",
       "createdAt": "2021-01-29T21:33:28Z",
-      "updatedAt": "2021-01-29T21:33:28Z",
+      "updatedAt": "2021-01-31T16:47:57Z",
       "baseRepository": "intarchboard/covid19-workshop",
       "baseRefName": "master",
       "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
       "headRepository": "intarchboard/covid19-workshop",
       "headRefName": "mirjak-patch-3",
-      "headRefOid": "92c8d37ea6cab318bc065ab97d3950c4bfffe247",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "69ab507c508ee432ebbcd42d40e6419011340c63",
+      "closedAt": "2021-01-31T16:47:57Z",
+      "mergedAt": "2021-01-31T16:47:57Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "23335505f54302317cc56c91283cccd74b609e5e"
+      },
       "comments": [],
       "reviews": []
     },
@@ -346,6 +348,32 @@
       "mergeCommit": {
         "oid": "fbc36ae9161dbc04dbbc7f285d4c04c38d5a26ca"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0NjkyMzEw",
+      "title": "Proposal to merge sections",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/10",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-31T17:12:37Z",
+      "updatedAt": "2021-01-31T17:12:37Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "91e4f5b9802e0f482648fa4df7174dfa68d8377f",
+      "headRepository": "intarchboard/covid19-workshop",
+      "headRefName": "mirjak-patch-4",
+      "headRefOid": "a08b0a52acc1cf72a07995343031ce818400936b",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
