@@ -261,8 +261,9 @@ Table of Contents
 
    Some of the lockdowns were lifted or relaxed around May 2020.  As
    people were allowed to perform some of their daily habits outside of
-   their home again, we see a decrease of the traffic at the IXPs and
-   the ISP; instead mobile traffic is now growing again.
+   their home again, as expected, there was a decrease of the traffic at
+   the IXPs and the ISP observed; instead mobile traffic is now growing
+   again.
 
 3.1.2.  Changes in application use
 
@@ -388,9 +389,9 @@ Table of Contents
 
    Measurements of interconnection links at major US ISPs by CAIDA and
    MIT found some evidence of diurnal congestion around the March 2020
-   timeframe, but most of this congestion disappeared in a few weeks,
-   which suggests that operators indeed did take steps to add capacity
-   or otherwise mitigate the congestion.
+   timeframe [Clark2020], but most of this congestion disappeared in a
+   few weeks, which suggests that operators indeed did take steps to add
+   capacity or otherwise mitigate the congestion.
 
 3.1.5.  Cloud platforms
 
