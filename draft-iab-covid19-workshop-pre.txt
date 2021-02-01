@@ -5,12 +5,12 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Best Current Practice                        S. Farrell
-Expires: 4 August 2021                            Trinity College Dublin
+Expires: 5 August 2021                            Trinity College Dublin
                                                             M. Kühlewind
                                                                 Ericsson
                                                               C. Perkins
                                                    University of Glasgow
-                                                         31 January 2021
+                                                         1 February 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -51,7 +51,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 August 2021.
+   This Internet-Draft will expire on 5 August 2021.
 
 Copyright Notice
 
@@ -75,10 +75,11 @@ Table of Contents
      3.1.  Measurement-based Observation on Network Traffic Dynamics
        3.1.1.  Overall traffic growth
        3.1.2.  Changes in application use
-       3.1.3.  A deeper look at interconnections
-       3.1.4.  Cloud platforms
-       3.1.5.  Last mile congestion
-       3.1.6.  User behaviour
+       3.1.3.  Mobile networks and Mobility
+       3.1.4.  A deeper look at interconnections
+       3.1.5.  Cloud platforms
+       3.1.6.  Last mile congestion
+       3.1.7.  User behaviour
      3.2.  Operational Practises and Changes
        3.2.1.  Digital Divide
        3.2.2.  Applications
@@ -196,14 +197,34 @@ Table of Contents
    the situation, covering different angles and aspects of network
    traffic and kind of networks.
 
-   At a high level, the traffic in mobile networks decreased as a result
-   of reduced population mobility while traffic from home networks
-   increased.  As a result of the shift for working and learning at
-   home, there was a strong increase in video conferencing and remote
-   learning application traffic.  The typical diurnal usage patterns in
-   network traffic also changed, with peak times occuring earlier in the
-   day and peak times lasting longer over the day - reflecting the start
-   of the work or school day from home.
+   Changes in Internet traffic due to the COVID-19 pandemic are
+   affecting different networks in various ways.  Yet all networks
+   observe some form of change, be it in a reduction in traffic, an
+   increase in traffic, a change in working days and weekend days
+   patterns, or a change in traffic classes.  Traffic volume,
+   directionality ratios, and its source and destination are radically
+   different from before COVID-19.
+
+   At a high level, while traffic from home networks increased
+   signficiantly, the traffic in mobile networks decreased as a result
+   of reduced population mobility.  Further, there was a strong increase
+   in video conferencing and remote learning application traffic due to
+   the shift for working and learning at home.  With that swift, the
+   typical diurnal usage patterns in network traffic also changed, with
+   peak times occuring earlier in the day and peak times lasting longer
+   over the day - reflecting the start of the work or school day from
+   home.  This behavior is antagonistic, yet complementary, to the one
+   observed in residential ISPs.
+
+   While diurnal congestion at interconnect point sas well in certain
+   last mile network was reported, mainly in March, but no persitent
+   congestion was observed.  Further a downward trends in download
+   throughput to certain cloud regions was measured which can probably
+   explained with the increase use of clould services, giving another
+   indication that the scalng of shared resources in the Internet in
+   working resonably well to even handle larger changes in traffic as
+   experience during the first nearly global lockdown of the COVID-19
+   pandemic.
 
 3.1.1.  Overall traffic growth
 
@@ -308,7 +329,7 @@ Table of Contents
    based) resources requested during work are no longer accessed from
    the educational network but from the use
 
-3.1.2.2.  Example mobile networks
+3.1.3.  Mobile networks and Mobility
 
    Mobile network data usage appeared to decline following the
    imposition of localized lockdown measures, as these reduced typical
@@ -354,18 +375,7 @@ Table of Contents
    central districts, which include many seasonal residents (e.g.,
    tourists), business and commercial areas.
 
-3.1.2.3.  Summary
-
-   Changes in Internet traffic due to the COVID-19 pandemic are
-   affecting different networks in various ways.  Yet all networks
-   observe some form of change, be it in a reduction in traffic, an
-   increase in traffic, a change in working days and weekend days
-   patterns, or a change in traffic classes.  Traffic volume,
-   directionality ratios, and its source and destination are radically
-   different from before COVID-19.  This behavior is antagonistic, yet
-   complementary, to the one observed in residential ISPs.
-
-3.1.3.  A deeper look at interconnections
+3.1.4.  A deeper look at interconnections
 
    Traffic at points of network interconnection noticeably increased but
    most operators reacted quickly by rapidly adding additional capacity
@@ -382,7 +392,7 @@ Table of Contents
    which suggests that operators indeed did take steps to add capacity
    or otherwise mitigate the congestion.
 
-3.1.4.  Cloud platforms
+3.1.5.  Cloud platforms
 
    Cloud infrastructure played a key role in supporting bandwidth-
    intensive video conferencing and remote learning tools to practice
@@ -411,7 +421,7 @@ Table of Contents
       increased use of the cloud in the pandemic could be one of the
       factors that contributed to the decreased performance.
 
-3.1.5.  Last mile congestion
+3.1.6.  Last mile congestion
 
    Last-mile is the centerpiece of broadband connectivity, where poor
    last-mile performance generally translates to poor quality of
@@ -438,7 +448,7 @@ Table of Contents
    pandemic is apparently shaping a more resilient Internet, as
    Nietzsche wrote, "What does not kill me makes me stronger".
 
-3.1.6.  User behaviour
+3.1.7.  User behaviour
 
    The type of traffic needed by the users also changed in 2020.
    Upstream traffic increased due the use of video conferences, remote
