@@ -71,15 +71,15 @@ Table of Contents
 
    1.  Introduction
    2.  Scope
-   3.  Discussion Topics
-     3.1.  Measurement-based Observation on Network Traffic Dynamics
-       3.1.1.  Overall traffic growth
-       3.1.2.  Changes in application use
-       3.1.3.  Mobile networks and Mobility
-       3.1.4.  A deeper look at interconnections
-       3.1.5.  Cloud platforms
-       3.1.6.  Last mile congestion
-       3.1.7.  User behaviour
+   3.  Workshop Topics and Discussion
+     3.1.  Measurement-based Observations on Network Traffic Dynamics
+       3.1.1.  Overall Traffic Growth
+       3.1.2.  Changes in Application Use
+       3.1.3.  Mobile Networks and Mobility
+       3.1.4.  A Deeper Look at Interconnections
+       3.1.5.  Cloud Platforms
+       3.1.6.  Last Mile Congestion
+       3.1.7.  User Behaviour
      3.2.  Operational Practises and Architectural Considerations
        3.2.1.  Digital Divide
        3.2.2.  Applications
@@ -87,7 +87,7 @@ Table of Contents
        3.2.4.  Security
        3.2.5.  Discussion
      3.3.  Conclusions
-   4.  Feedback on meeting format
+   4.  Feedback on Meeting Format
    5.  Position Papers
    6.  Workshop participants
    7.  Program Committee
@@ -184,9 +184,9 @@ Table of Contents
 
    *  lessons learned for Internet technology and architecture
 
-3.  Discussion Topics
+3.  Workshop Topics and Discussion
 
-3.1.  Measurement-based Observation on Network Traffic Dynamics
+3.1.  Measurement-based Observations on Network Traffic Dynamics
 
    The workshop started with a focus on measurements.  A large portion
    of the submitted papers presented and discussed measurement data and
@@ -223,7 +223,7 @@ Table of Contents
    experience during the first nearly global lockdown of the COVID-19
    pandemic.
 
-3.1.1.  Overall traffic growth
+3.1.1.  Overall Traffic Growth
 
    The global pandemic has significantly accelerated the growth of data
    traffic worldwide.  Based on the measurement data of one ISP, three
@@ -262,7 +262,7 @@ Table of Contents
    the IXPs and the ISP observed; instead mobile traffic is now growing
    again.
 
-3.1.2.  Changes in application use
+3.1.2.  Changes in Application Use
 
    The composition of data traffic has changed since the beginning of
    the pandemic: the use of videoconferencing services and virtual
@@ -285,7 +285,7 @@ Table of Contents
    which likely leads to an increase in in-person social activities and
    a decrease in online ones.
 
-3.1.2.1.  Example campus networks
+3.1.2.1.  Example Campus Networks
 
    Changes in traffic have been observed at University campus networks
    as well, especially due to the necessary adoption of remote teaching.
@@ -327,7 +327,7 @@ Table of Contents
    based) resources requested during work are no longer accessed from
    the educational network but from the use
 
-3.1.3.  Mobile networks and Mobility
+3.1.3.  Mobile Networks and Mobility
 
    Mobile network data usage appeared to decline following the
    imposition of localized lockdown measures, as these reduced typical
@@ -373,7 +373,7 @@ Table of Contents
    central districts, which include many seasonal residents (e.g.,
    tourists), business and commercial areas.
 
-3.1.4.  A deeper look at interconnections
+3.1.4.  A Deeper Look at Interconnections
 
    Traffic at points of network interconnection noticeably increased but
    most operators reacted quickly by rapidly adding additional capacity
@@ -390,7 +390,7 @@ Table of Contents
    few weeks, which suggests that operators indeed did take steps to add
    capacity or otherwise mitigate the congestion.
 
-3.1.5.  Cloud platforms
+3.1.5.  Cloud Platforms
 
    Cloud infrastructure played a key role in supporting bandwidth-
    intensive video conferencing and remote learning tools to practice
@@ -419,7 +419,7 @@ Table of Contents
       increased use of the cloud in the pandemic could be one of the
       factors that contributed to the decreased performance.
 
-3.1.6.  Last mile congestion
+3.1.6.  Last Mile Congestion
 
    Last-mile is the centerpiece of broadband connectivity, where poor
    last-mile performance generally translates to poor quality of
@@ -446,7 +446,7 @@ Table of Contents
    pandemic is apparently shaping a more resilient Internet, as
    Nietzsche wrote, "What does not kill me makes me stronger".
 
-3.1.7.  User behaviour
+3.1.7.  User Behaviour
 
    The type of traffic needed by the users also changed in 2020.
    Upstream traffic increased due the use of video conferences, remote
@@ -696,7 +696,7 @@ Table of Contents
    *  Informal collaboration between different parties needs to continue
       and be strengthened.
 
-4.  Feedback on meeting format
+4.  Feedback on Meeting Format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
@@ -888,7 +888,8 @@ Table of Contents
    platform; Martino Trevisan for text on campus networks; David Clark
    on congestion measurements at interconnects; Oliver Hohlfeld for the
    text on traffic growth, changes in traffic shifts, campus networks,
-   and interconnections.
+   and interconnections; Andra Lutu on mobile networks; And thanks to
+   Jason Livingood for his review and additions.
 
 9.  Informative References
 

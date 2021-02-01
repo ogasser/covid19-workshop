@@ -78,16 +78,16 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
    2.  Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  Discussion Topics . . . . . . . . . . . . . . . . . . . . . .   4
-     3.1.  Measurement-based Observation on Network Traffic
+   3.  Workshop Topics and Discussion  . . . . . . . . . . . . . . .   4
+     3.1.  Measurement-based Observations on Network Traffic
            Dynamics  . . . . . . . . . . . . . . . . . . . . . . . .   5
-       3.1.1.  Overall traffic growth  . . . . . . . . . . . . . . .   5
-       3.1.2.  Changes in application use  . . . . . . . . . . . . .   6
-       3.1.3.  Mobile networks and Mobility  . . . . . . . . . . . .   8
-       3.1.4.  A deeper look at interconnections . . . . . . . . . .   9
-       3.1.5.  Cloud platforms . . . . . . . . . . . . . . . . . . .   9
-       3.1.6.  Last mile congestion  . . . . . . . . . . . . . . . .  10
-       3.1.7.  User behaviour  . . . . . . . . . . . . . . . . . . .  10
+       3.1.1.  Overall Traffic Growth  . . . . . . . . . . . . . . .   5
+       3.1.2.  Changes in Application Use  . . . . . . . . . . . . .   6
+       3.1.3.  Mobile Networks and Mobility  . . . . . . . . . . . .   8
+       3.1.4.  A Deeper Look at Interconnections . . . . . . . . . .   9
+       3.1.5.  Cloud Platforms . . . . . . . . . . . . . . . . . . .   9
+       3.1.6.  Last Mile Congestion  . . . . . . . . . . . . . . . .  10
+       3.1.7.  User Behaviour  . . . . . . . . . . . . . . . . . . .  10
      3.2.  Operational Practises and Architectural Considerations  .  11
        3.2.1.  Digital Divide  . . . . . . . . . . . . . . . . . . .  11
        3.2.2.  Applications  . . . . . . . . . . . . . . . . . . . .  12
@@ -95,7 +95,7 @@ Table of Contents
        3.2.4.  Security  . . . . . . . . . . . . . . . . . . . . . .  14
        3.2.5.  Discussion  . . . . . . . . . . . . . . . . . . . . .  14
      3.3.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  15
-   4.  Feedback on meeting format  . . . . . . . . . . . . . . . . .  16
+   4.  Feedback on Meeting Format  . . . . . . . . . . . . . . . . .  16
    5.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .  16
    6.  Workshop participants . . . . . . . . . . . . . . . . . . . .  17
    7.  Program Committee . . . . . . . . . . . . . . . . . . . . . .  19
@@ -210,7 +210,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
    *  lessons learned for Internet technology and architecture
 
-3.  Discussion Topics
+3.  Workshop Topics and Discussion
 
 
 
@@ -226,7 +226,7 @@ Arkko, et al.             Expires 5 August 2021                 [Page 4]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
 
-3.1.  Measurement-based Observation on Network Traffic Dynamics
+3.1.  Measurement-based Observations on Network Traffic Dynamics
 
    The workshop started with a focus on measurements.  A large portion
    of the submitted papers presented and discussed measurement data and
@@ -263,7 +263,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    experience during the first nearly global lockdown of the COVID-19
    pandemic.
 
-3.1.1.  Overall traffic growth
+3.1.1.  Overall Traffic Growth
 
    The global pandemic has significantly accelerated the growth of data
    traffic worldwide.  Based on the measurement data of one ISP, three
@@ -310,7 +310,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    the IXPs and the ISP observed; instead mobile traffic is now growing
    again.
 
-3.1.2.  Changes in application use
+3.1.2.  Changes in Application Use
 
    The composition of data traffic has changed since the beginning of
    the pandemic: the use of videoconferencing services and virtual
@@ -341,7 +341,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    which likely leads to an increase in in-person social activities and
    a decrease in online ones.
 
-3.1.2.1.  Example campus networks
+3.1.2.1.  Example Campus Networks
 
    Changes in traffic have been observed at University campus networks
    as well, especially due to the necessary adoption of remote teaching.
@@ -394,7 +394,7 @@ Arkko, et al.             Expires 5 August 2021                 [Page 7]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
 
-3.1.3.  Mobile networks and Mobility
+3.1.3.  Mobile Networks and Mobility
 
    Mobile network data usage appeared to decline following the
    imposition of localized lockdown measures, as these reduced typical
@@ -450,7 +450,7 @@ Arkko, et al.             Expires 5 August 2021                 [Page 8]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
 
-3.1.4.  A deeper look at interconnections
+3.1.4.  A Deeper Look at Interconnections
 
    Traffic at points of network interconnection noticeably increased but
    most operators reacted quickly by rapidly adding additional capacity
@@ -467,7 +467,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    few weeks, which suggests that operators indeed did take steps to add
    capacity or otherwise mitigate the congestion.
 
-3.1.5.  Cloud platforms
+3.1.5.  Cloud Platforms
 
    Cloud infrastructure played a key role in supporting bandwidth-
    intensive video conferencing and remote learning tools to practice
@@ -506,7 +506,7 @@ Arkko, et al.             Expires 5 August 2021                 [Page 9]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
 
-3.1.6.  Last mile congestion
+3.1.6.  Last Mile Congestion
 
    Last-mile is the centerpiece of broadband connectivity, where poor
    last-mile performance generally translates to poor quality of
@@ -533,7 +533,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    pandemic is apparently shaping a more resilient Internet, as
    Nietzsche wrote, "What does not kill me makes me stronger".
 
-3.1.7.  User behaviour
+3.1.7.  User Behaviour
 
    The type of traffic needed by the users also changed in 2020.
    Upstream traffic increased due the use of video conferences, remote
@@ -855,7 +855,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    *  Informal collaboration between different parties needs to continue
       and be strengthened.
 
-4.  Feedback on meeting format
+4.  Feedback on Meeting Format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
@@ -1079,7 +1079,8 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    platform; Martino Trevisan for text on campus networks; David Clark
    on congestion measurements at interconnects; Oliver Hohlfeld for the
    text on traffic growth, changes in traffic shifts, campus networks,
-   and interconnections.
+   and interconnections; Andra Lutu on mobile networks; And thanks to
+   Jason Livingood for his review and additions.
 
 9.  Informative References
 
@@ -1111,7 +1112,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    [Cho2020]  Cho, K., "On the COVID-19 Impact to broadband traffic in
               Japan", Position paper in the 2020 IAB COVID-19 Network
               Impacts workshop. , October 2020.
-
 
 
 
