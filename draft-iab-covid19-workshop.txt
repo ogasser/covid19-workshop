@@ -88,24 +88,24 @@ Table of Contents
        3.1.5.  Cloud platforms . . . . . . . . . . . . . . . . . . .   9
        3.1.6.  Last mile congestion  . . . . . . . . . . . . . . . .  10
        3.1.7.  User behaviour  . . . . . . . . . . . . . . . . . . .  10
-     3.2.  Operational Practises and Changes . . . . . . . . . . . .  11
+     3.2.  Operational Practises and Architectural Considerations  .  11
        3.2.1.  Digital Divide  . . . . . . . . . . . . . . . . . . .  11
        3.2.2.  Applications  . . . . . . . . . . . . . . . . . . . .  12
-       3.2.3.  Observability . . . . . . . . . . . . . . . . . . . .  12
-       3.2.4.  Security  . . . . . . . . . . . . . . . . . . . . . .  13
+       3.2.3.  Observability . . . . . . . . . . . . . . . . . . . .  13
+       3.2.4.  Security  . . . . . . . . . . . . . . . . . . . . . .  14
        3.2.5.  Discussion  . . . . . . . . . . . . . . . . . . . . .  14
-     3.3.  Architectural Considerations and Conclusions for the
-           Future  . . . . . . . . . . . . . . . . . . . . . . . . .  14
-       3.3.1.  DSCP point and counterpoint . . . . . . . . . . . . .  14
-       3.3.2.  Security  . . . . . . . . . . . . . . . . . . . . . .  15
-     3.4.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  15
-     3.5.  Feedback on meeting format  . . . . . . . . . . . . . . .  16
+       3.2.6.  Security  . . . . . . . . . . . . . . . . . . . . . .  15
+     3.3.  Conclusions . . . . . . . . . . . . . . . . . . . . . . .  15
+     3.4.  Feedback on meeting format  . . . . . . . . . . . . . . .  16
    4.  Position Papers . . . . . . . . . . . . . . . . . . . . . . .  17
    5.  Workshop participants . . . . . . . . . . . . . . . . . . . .  18
    6.  Program Committee . . . . . . . . . . . . . . . . . . . . . .  20
    7.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  20
    8.  Informative References  . . . . . . . . . . . . . . . . . . .  20
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  23
+
+
+
 
 
 
@@ -582,9 +582,11 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    people interested in remote work [WorkplaceAnalytics2020]
    [McKinsey2020].
 
-3.2.  Operational Practises and Changes
+3.2.  Operational Practises and Architectural Considerations
 
-   The second day of the workshop focussed on operational issues.
+   The second and third day of the workshop were held based on more open
+   discussions focussed on operational issues and the architectural
+   issues arising or other conclusions that could be reached.
 
 3.2.1.  Digital Divide
 
@@ -598,6 +600,24 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    governments might usefully coordinate with operators to allow time
    for pre-emptive operational changes, in some cases.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Arkko, et al.             Expires 5 August 2021                [Page 11]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
+
+
    Measurements from the US showed that download rates correlate with
    income levels.  However, download rates in the lowest income zip
    codes increased as the pandemic progressed, closing the divide with
@@ -609,14 +629,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    to differences in the deployed infrastructure in different regions,
    although it was noted that certainly access link technologies provide
    more flexibility than others in this regard.
-
-
-
-
-Arkko, et al.             Expires 5 August 2021                [Page 11]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
-
 
 3.2.2.  Applications
 
@@ -646,19 +658,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    and mechanisms to deal with this.  Ensuring that knowledge if shared
    is a challenge.
 
-3.2.3.  Observability
 
-   It is clear that there is a contrast in experience.  Many operators
-   reported few problems, in terms of metrics such as measured download
-   bandwidth, while video conferencing applications experienced
-   significant usability problems running on those networks.  The
-   interaction between application providers and network providers
-   worked very smoothly to resolve these issues, supported by strong
-   personal contacts and relationships.  But it seems clear that the
-   metrics used by many operators to understand their network
-   performance don't fully capture the impact on certain applications,
-   and there is an observability gap.  Do we need more tools to figure
-   out the various impacts on user experience?
 
 
 
@@ -673,6 +673,31 @@ Arkko, et al.             Expires 5 August 2021                [Page 12]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
+
+   Following these observations traffic prioritisation was discussed,
+   starting from DSCP marking, basically wondering if a minimal priority
+   marking scheme would have helped during the pandemic, e.g. by
+   allowing marking of less-than-best-effort traffic.  That discussion
+   quickly deolved into a more general QoS and observability discussion,
+   and as such also touching on the effects of increased encryption.
+   The group was not, unsuprisingly, able to finally resolve the
+   different perspectives and interests involved in that, but the
+   discussion demonstrated that progress is made (and being less
+   heated).
+
+3.2.3.  Observability
+
+   It is clear that there is a contrast in experience.  Many operators
+   reported few problems, in terms of metrics such as measured download
+   bandwidth, while video conferencing applications experienced
+   significant usability problems running on those networks.  The
+   interaction between application providers and network providers
+   worked very smoothly to resolve these issues, supported by strong
+   personal contacts and relationships.  But it seems clear that the
+   metrics used by many operators to understand their network
+   performance don't fully capture the impact on certain applications,
+   and there is an observability gap.  Do we need more tools to figure
+   out the various impacts on user experience?
 
    These types of applications use surprising amounts of FEC.
    Applications hide lots of loss to ensure a good user experience.
@@ -693,6 +718,17 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    to the person who can fix them, across multiple networks in the
    Internet.  COVID enhanced cooperation, making it easier to debug
    problems; lines of communication are important.
+
+
+
+
+
+
+
+Arkko, et al.             Expires 5 August 2021                [Page 13]
+
+Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
+
 
 3.2.4.  Security
 
@@ -721,15 +757,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    are not new: many people have used then for years; nobody attacked it
    until it was the front line.  What's the next vulnerable service?
 
-
-
-
-
-Arkko, et al.             Expires 5 August 2021                [Page 13]
-
-Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
-
-
 3.2.5.  Discussion
 
    There is a concern that we're missing observability for the network
@@ -751,33 +778,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    both in protocol design and operational practise, not necessarily to
    optimise for absolute performance or quality of experience.
 
-3.3.  Architectural Considerations and Conclusions for the Future
-
-   The final session of the workshop considered the architectural issues
-   arising and other conclusions that could be reached.  In general many
-   of these topics had been covered earlier so the report-out from this
-   session is more brief.
-
-3.3.1.  DSCP point and counterpoint
-
-   Largely following on from earlier discussions related to
-   observability and relating to traffic priorities, we had a discussion
-   starting from DSCP marking, basically wondering if a minimal priority
-   marking scheme would have helped during the pandemic, e.g. by
-   allowing marking of less-than-best-effort traffic.
-
-   That discussion quickly deolved into the usual QoS and observability
-   discussion, as always also touching on the effects of increased
-   encryption.  (The group once more succeeded in not making headway in
-   resolving the different perspectives and interests involved in that,
-   but did demonstrate that we're making progress on the discussion
-   being less heated;-)
-
-
-
-
-
-
 
 
 
@@ -786,17 +786,17 @@ Arkko, et al.             Expires 5 August 2021                [Page 14]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
 
 
-3.3.2.  Security
+3.2.6.  Security
 
-   The group discussed a submission [Kirsty2020] dealing with changes in
-   attack patterns subsequent to the move towards working from home.  At
-   a high level there wasn't much of an uptick in the number of attacks
-   seen, but it was notable that different lures were used in phishing
-   attacks, demonstrating that bad actors had also adjusted to the
-   pandemic to an extent.  The group noted, that, in constrast to
-   measuring traffic changes, it was harder to measure how the pandemic
-   affected security and perhaps there is scope for research on that
-   topic.
+   The group finally also discussed the submission [Kirsty2020] dealing
+   with changes in attack patterns subsequent to the move towards
+   working from home.  At a high level there wasn't much of an uptick in
+   the number of attacks seen, but it was notable that different lures
+   were used in phishing attacks, demonstrating that bad actors had also
+   adjusted to the pandemic to an extent.  The group noted, that, in
+   constrast to measuring traffic changes, it was harder to measure how
+   the pandemic affected security and perhaps there is scope for
+   research on that topic.
 
    Overall, it may be that the pandemic caused fewer security changes
    than one would have guessed had one been asked, pre-pandemic, what
@@ -805,7 +805,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    before the pandemic nor that it is good during the pandemic - it
    seems rather the opposite.
 
-3.4.  Conclusions
+3.3.  Conclusions
 
    There is a wealth of data about the performance of the Internet
    during the crisis.  The main conclusion from the various measurements
@@ -867,7 +867,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20   February 2021
    *  Informal collaboration between different parties needs to continue
       and be strengthened.
 
-3.5.  Feedback on meeting format
+3.4.  Feedback on meeting format
 
    While there are frequently virtual participants in IAB workshops, the
    IAB had no experience running workshops entirely virtually.
