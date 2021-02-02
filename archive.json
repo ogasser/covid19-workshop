@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-02-01T14:00:17.333468+00:00",
+  "timestamp": "2021-02-02T00:22:24.473171+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -356,24 +356,26 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTY0NjkyMzEw",
       "title": "Proposal to merge sections",
       "url": "https://github.com/intarchboard/covid19-workshop/pull/10",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-01-31T17:12:37Z",
-      "updatedAt": "2021-01-31T17:12:37Z",
+      "updatedAt": "2021-02-01T17:17:37Z",
       "baseRepository": "intarchboard/covid19-workshop",
       "baseRefName": "master",
       "baseRefOid": "91e4f5b9802e0f482648fa4df7174dfa68d8377f",
       "headRepository": "intarchboard/covid19-workshop",
       "headRefName": "mirjak-patch-4",
       "headRefOid": "a08b0a52acc1cf72a07995343031ce818400936b",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-02-01T17:17:37Z",
+      "mergedAt": "2021-02-01T17:17:37Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "8b48cbe1917903efef080e2c6b3f5a86fb584006"
+      },
       "comments": [],
       "reviews": []
     }
