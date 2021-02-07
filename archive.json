@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-02-04T00:16:43.738442+00:00",
+  "timestamp": "2021-02-07T00:17:16.876096+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -49,7 +49,104 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 12,
+      "id": "MDU6SXNzdWU4MDI1MjA4MTM=",
+      "title": "Report Status",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/12",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The report is marked as a BCP. Is that the intent?",
+      "createdAt": "2021-02-05T22:38:36Z",
+      "updatedAt": "2021-02-05T22:38:36Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 13,
+      "id": "MDU6SXNzdWU4MDI1MjExNTA=",
+      "title": "Measurement-based Observations on Network Traffic Dynamics",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/13",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Measurement-based Observations on Network Traffic Dynamics\r\n-  2nd to last paragraph: \u201cThis behavior is antagonistic, yet complementary, to the one observed in residential ISPs.\u201d \u2014 I don\u2019t understand the intent of that sentence.\r\n\r\n- Last paragraph: \u201cThis gives another indication that the scalng of shared resources in the Internet is working resonably well enough to handle even larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. \u201c - Does this mean \u201clarger changes\u2026than experienced\u201d? ",
+      "createdAt": "2021-02-05T22:39:28Z",
+      "updatedAt": "2021-02-05T22:39:28Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 14,
+      "id": "MDU6SXNzdWU4MDI1MjE0OTM=",
+      "title": "Example Campus Networks:",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/14",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The last sentence in the first paragraph seems redundant to the more detailed 2nd sentence.",
+      "createdAt": "2021-02-05T22:40:17Z",
+      "updatedAt": "2021-02-05T22:40:17Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 15,
+      "id": "MDU6SXNzdWU4MDI1MjE3ODc=",
+      "title": "Last-Mile Congestion:",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/15",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Can we find a more technical term than \u201clarge-eyeball networks\u201d?\r\n",
+      "createdAt": "2021-02-05T22:40:59Z",
+      "updatedAt": "2021-02-05T22:40:59Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 16,
+      "id": "MDU6SXNzdWU4MDI1MjIwNjA=",
+      "title": "User Behavior",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/16",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "\u201cSmartphone application usage changed, with fastest growth in COVID-19, remote working, e-learning, wellness, education, remote health consultation, and social shared experienceapplications.\u201d \r\n\r\nAre there words missing after COVID-19? (the growth of COVID-19, in itself, seems an odd entry for this list.)",
+      "createdAt": "2021-02-05T22:41:40Z",
+      "updatedAt": "2021-02-05T22:41:40Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 17,
+      "id": "MDU6SXNzdWU4MDI1MjIzMzM=",
+      "title": "Digital Divide",
+      "url": "https://github.com/intarchboard/covid19-workshop/issues/17",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "\"One possible reason for this in the data is decisions by some ISPs, such as Comcast and Cox, that increased speeds for users on certain plans and in certain areas.\u201d \r\n\r\nIs it worth noting that they increased speed for certain _lower-cost_ plans?\r\n",
+      "createdAt": "2021-02-05T22:42:18Z",
+      "updatedAt": "2021-02-05T22:43:20Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
@@ -376,6 +473,32 @@
       "mergeCommit": {
         "oid": "8b48cbe1917903efef080e2c6b3f5a86fb584006"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY4NjQ5ODk5",
+      "title": "Editorial Stuff",
+      "url": "https://github.com/intarchboard/covid19-workshop/pull/11",
+      "state": "OPEN",
+      "author": "bacampbe",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "These are some edits for grammar and a few for style. I also took the liberty of wrapping some unwrapped lines to make it easier for me to review.",
+      "createdAt": "2021-02-05T22:37:23Z",
+      "updatedAt": "2021-02-05T22:37:23Z",
+      "baseRepository": "intarchboard/covid19-workshop",
+      "baseRefName": "master",
+      "baseRefOid": "a79df29fb4f861fef835d97feeb46e46ff7a8548",
+      "headRepository": "bacampbe/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "4c198eeee09b837e763c887d0132b8439a878eec",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
