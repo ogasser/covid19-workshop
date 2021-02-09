@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-02-07T00:17:16.876096+00:00",
+  "timestamp": "2021-02-09T00:16:41.401639+00:00",
   "repo": "intarchboard/covid19-workshop",
   "labels": [
     {
@@ -55,32 +55,48 @@
       "id": "MDU6SXNzdWU4MDI1MjA4MTM=",
       "title": "Report Status",
       "url": "https://github.com/intarchboard/covid19-workshop/issues/12",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "bacampbe",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "The report is marked as a BCP. Is that the intent?",
       "createdAt": "2021-02-05T22:38:36Z",
-      "updatedAt": "2021-02-05T22:38:36Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-02-08T17:41:36Z",
+      "closedAt": "2021-02-08T17:41:36Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "ups.. my fault.",
+          "createdAt": "2021-02-08T17:40:43Z",
+          "updatedAt": "2021-02-08T17:40:43Z"
+        }
+      ]
     },
     {
       "number": 13,
       "id": "MDU6SXNzdWU4MDI1MjExNTA=",
       "title": "Measurement-based Observations on Network Traffic Dynamics",
       "url": "https://github.com/intarchboard/covid19-workshop/issues/13",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "bacampbe",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "Measurement-based Observations on Network Traffic Dynamics\r\n-  2nd to last paragraph: \u201cThis behavior is antagonistic, yet complementary, to the one observed in residential ISPs.\u201d \u2014 I don\u2019t understand the intent of that sentence.\r\n\r\n- Last paragraph: \u201cThis gives another indication that the scalng of shared resources in the Internet is working resonably well enough to handle even larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. \u201c - Does this mean \u201clarger changes\u2026than experienced\u201d? ",
       "createdAt": "2021-02-05T22:39:28Z",
-      "updatedAt": "2021-02-05T22:39:28Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-02-08T17:47:17Z",
+      "closedAt": "2021-02-08T17:47:17Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "First point: my fault I copied&pasted it to the wrong position.\r\nSecond point: will fix.",
+          "createdAt": "2021-02-08T17:46:22Z",
+          "updatedAt": "2021-02-08T17:46:22Z"
+        }
+      ]
     },
     {
       "number": 14,
@@ -94,9 +110,24 @@
       "labels": [],
       "body": "The last sentence in the first paragraph seems redundant to the more detailed 2nd sentence.",
       "createdAt": "2021-02-05T22:40:17Z",
-      "updatedAt": "2021-02-05T22:40:17Z",
+      "updatedAt": "2021-02-08T17:55:43Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Which sentence is redundant to which...?",
+          "createdAt": "2021-02-08T17:49:33Z",
+          "updatedAt": "2021-02-08T17:49:33Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "NONE",
+          "body": "\"The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes.\"\r\n... and ...\r\n\"Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms,\r\nVPNs and remote desktop.\"\r\n\r\nI originally red the first to mean the same as the second (with more detail.), thinking of only classes as a kind of collaboration platform. But maybe those are different, and the second sentence does mention VPN, etc. Perhaps something like the following would work?\r\n\r\n\"Outgoing traffic also increased due to other remote working solutions, such as collaboration platforms, VPNs, and remote desktops.\"\r\n",
+          "createdAt": "2021-02-08T17:55:43Z",
+          "updatedAt": "2021-02-08T17:55:43Z"
+        }
+      ]
     },
     {
       "number": 15,
@@ -110,9 +141,24 @@
       "labels": [],
       "body": "Can we find a more technical term than \u201clarge-eyeball networks\u201d?\r\n",
       "createdAt": "2021-02-05T22:40:59Z",
-      "updatedAt": "2021-02-05T22:40:59Z",
+      "updatedAt": "2021-02-08T17:49:24Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "do you have a proposal?",
+          "createdAt": "2021-02-08T17:47:37Z",
+          "updatedAt": "2021-02-08T17:47:37Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "NONE",
+          "body": "maybe \"networks with a very large number of users\"?",
+          "createdAt": "2021-02-08T17:49:24Z",
+          "updatedAt": "2021-02-08T17:49:24Z"
+        }
+      ]
     },
     {
       "number": 16,
@@ -126,25 +172,62 @@
       "labels": [],
       "body": "\u201cSmartphone application usage changed, with fastest growth in COVID-19, remote working, e-learning, wellness, education, remote health consultation, and social shared experienceapplications.\u201d \r\n\r\nAre there words missing after COVID-19? (the growth of COVID-19, in itself, seems an odd entry for this list.)",
       "createdAt": "2021-02-05T22:41:40Z",
-      "updatedAt": "2021-02-05T22:41:40Z",
+      "updatedAt": "2021-02-08T17:58:05Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "COVID-19 is actually a category; this is apps related to COVID-19 like tracking apps.\r\n\r\nI guess we could just says \"apps related to COVID-19\"?",
+          "createdAt": "2021-02-08T17:51:38Z",
+          "updatedAt": "2021-02-08T17:51:38Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "NONE",
+          "body": "That works better. Or maybe \"... related to COVID-19 tracking and information,...\"?",
+          "createdAt": "2021-02-08T17:58:05Z",
+          "updatedAt": "2021-02-08T17:58:05Z"
+        }
+      ]
     },
     {
       "number": 17,
       "id": "MDU6SXNzdWU4MDI1MjIzMzM=",
       "title": "Digital Divide",
       "url": "https://github.com/intarchboard/covid19-workshop/issues/17",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "bacampbe",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "\"One possible reason for this in the data is decisions by some ISPs, such as Comcast and Cox, that increased speeds for users on certain plans and in certain areas.\u201d \r\n\r\nIs it worth noting that they increased speed for certain _lower-cost_ plans?\r\n",
       "createdAt": "2021-02-05T22:42:18Z",
-      "updatedAt": "2021-02-05T22:43:20Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-02-08T18:22:14Z",
+      "closedAt": "2021-02-08T18:22:14Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I think that makes sense. @csperkins @jlivingood okay?",
+          "createdAt": "2021-02-08T17:52:38Z",
+          "updatedAt": "2021-02-08T17:52:38Z"
+        },
+        {
+          "author": "jlivingood",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Agree - makes sense\r\ns/on certain plans/on certain lower-cost plans",
+          "createdAt": "2021-02-08T18:14:45Z",
+          "updatedAt": "2021-02-08T18:14:45Z"
+        },
+        {
+          "author": "csperkins",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yes, that's what was discussed. ",
+          "createdAt": "2021-02-08T18:17:05Z",
+          "updatedAt": "2021-02-08T18:17:05Z"
+        }
+      ]
     }
   ],
   "pulls": [
